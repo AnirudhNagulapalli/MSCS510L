@@ -1,0 +1,261 @@
+ant -f /Users/Anirudh/Desktop/SD&D/charlie -Djavac.includes=charlie/GameFrame.java -Dnb.internal.action.name=run.single -Drun.class=charlie.GameFrame run-single
+init:
+Deleting: /Users/Anirudh/Desktop/SD&D/charlie/build/built-jar.properties
+deps-jar:
+Updating property file: /Users/Anirudh/Desktop/SD&D/charlie/build/built-jar.properties
+MyCharliePlugins.init:
+MyCharliePlugins.deps-jar:
+Updating property file: /Users/Anirudh/Desktop/SD&D/charlie/build/built-jar.properties
+Duplicated project name in import. Project Charlie-impl defined first in /Users/Anirudh/Desktop/SD&D/charlie/nbproject/build-impl.xml and again in /Users/Anirudh/Desktop/SD&D/CharlieNew/charlie/nbproject/build-impl.xml
+Charlie.init:
+Charlie.deps-jar:
+Updating property file: /Users/Anirudh/Desktop/SD&D/charlie/build/built-jar.properties
+Charlie.compile:
+Copying 1 file to /Users/Anirudh/Desktop/SD&D/CharlieNew/charlie/build
+Not copying library /Users/Anirudh/NetBeansProjects/CharliePlugins/dist/CharliePlugins.jar , it can't be read.
+Copy libraries to /Users/Anirudh/Desktop/SD&D/CharlieNew/charlie/dist/lib.
+To run this application from the command line without Ant, try:
+java -jar "/Users/Anirudh/Desktop/SD&D/CharlieNew/charlie/dist/Charlie.jar"
+Charlie.jar:
+MyCharliePlugins.compile:
+Copying 1 file to /Users/Anirudh/NetBeansProjects/MyCharliePlugins/build
+Copy libraries to /Users/Anirudh/NetBeansProjects/MyCharliePlugins/dist/lib.
+To run this application from the command line without Ant, try:
+java -jar "/Users/Anirudh/NetBeansProjects/MyCharliePlugins/dist/MyCharliePlugins.jar"
+MyCharliePlugins.jar:
+Compiling 1 source file to /Users/Anirudh/Desktop/SD&D/charlie/build/classes
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+compile-single:
+run-single:
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/Anirudh/Desktop/SD&D/charlie/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/Anirudh/NetBeansProjects/MyCharliePlugins/dist/lib/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+13:52:57 [AWT-EventQueue-0] INFO charlie.GameFrame - client started
+13:52:58 [AWT-EventQueue-0] INFO charlie.sidebet.view.SideBetView - side bet view constructed
+13:52:58 [AWT-EventQueue-0] INFO charlie.view.ATable - successfully loaded side bet view
+13:52:58 [AWT-EventQueue-0] INFO charlie.GameFrame - init done
+13:53:00 [AWT-EventQueue-0] INFO charlie.GameFrame - opened socket to game server 127.0.0.1:9000
+13:53:00 [AWT-EventQueue-0] INFO charlie.GameFrame - got house addr = 127.0.0.1:1234:HOUSE
+13:53:00 [AWT-EventQueue-0] INFO com.googlecode.actorom.impl.remote.channel.RemoteChannelConnector - Connected to message channel at: 127.0.0.1:1234
+13:53:00 [AWT-EventQueue-0] INFO com.googlecode.actorom.impl.remote.channel.RemoteChannelConnector - Connected to message channel at: 127.0.0.1:1234
+13:53:00 [AWT-EventQueue-0] INFO charlie.GameFrame - got house actor
+13:53:00 [AWT-EventQueue-0] INFO com.googlecode.actorom.impl.remote.channel.RemoteChannel - Bound message channel to: 127.0.0.1:2345
+13:53:00 [AWT-EventQueue-0] INFO com.googlecode.actorom.impl.core.AbstractTopology - Spawning actor with address: 127.0.0.1:2345:COURIER
+13:53:00 [AWT-EventQueue-0] INFO charlie.GameFrame - spawned my addr = 127.0.0.1:2345:COURIER
+13:53:00 [AWT-EventQueue-0] INFO charlie.GameFrame - sent ARRIVAL to com.googlecode.actorom.impl.remote.RemoteActorProxy@35c3aba
+13:53:00 [Thread-4] INFO charlie.actor.Courier - received charlie.message.view.to.Ready@56579beb from 127.0.0.1:1234:PLAYER-1
+13:53:00 [Thread-4] INFO com.googlecode.actorom.impl.remote.channel.RemoteChannelConnector - Connected to message channel at: 127.0.0.1:1234
+13:53:00 [Thread-4] INFO com.googlecode.actorom.impl.remote.channel.RemoteChannelConnector - Connected to message channel at: 127.0.0.1:1234
+13:53:00 [AWT-EventQueue-0] INFO charlie.GameFrame - connected to courier bankroll = 1000.0
+13:53:06 [Thread-6] INFO charlie.view.ATable - side bet = 0
+13:53:16 [Thread-4] INFO charlie.actor.Courier - receive starting shoe size = 48
+13:53:16 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:YOU:44DF4BA02B26AEC8
+13:53:16 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:DEALER:44DF4BA02B26AEC8
+13:53:17 [Thread-4] INFO charlie.actor.Courier - received card = H7 values = 7/7 hid = Anirudhs-MacBook-Pro.local:YOU:44DF4BA02B26AEC8
+13:53:18 [Thread-4] INFO charlie.actor.Courier - received card = CK values = 0/0 hid = Anirudhs-MacBook-Pro.local:DEALER:44DF4BA02B26AEC8
+13:53:19 [Thread-4] INFO charlie.actor.Courier - received card = S9 values = 16/16 hid = Anirudhs-MacBook-Pro.local:YOU:44DF4BA02B26AEC8
+13:53:19 [Thread-4] INFO charlie.actor.Courier - received card = D9 values = 9/9 hid = Anirudhs-MacBook-Pro.local:DEALER:44DF4BA02B26AEC8
+13:53:19 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:YOU:44DF4BA02B26AEC8
+13:53:21 [Thread-4] INFO charlie.actor.Courier - received card = C3 values = 19/19 hid = Anirudhs-MacBook-Pro.local:YOU:44DF4BA02B26AEC8
+13:53:22 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:DEALER:44DF4BA02B26AEC8
+13:53:22 [Thread-4] INFO charlie.actor.Courier - received card = null values = 19/19 hid = Anirudhs-MacBook-Pro.local:DEALER:44DF4BA02B26AEC8
+13:53:22 [Thread-4] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Push@5437934c
+13:53:22 [Thread-4] INFO charlie.view.ATable - PUSH for hid = Anirudhs-MacBook-Pro.local:YOU:44DF4BA02B26AEC8 amt = 25.0
+13:53:22 [Thread-4] INFO charlie.actor.Courier - received ending shoe size = 43
+13:53:22 [Thread-4] INFO charlie.view.ATable - num hands = 2
+13:53:22 [Thread-4] INFO charlie.view.ATable - winner count = 0
+13:53:22 [Thread-4] INFO charlie.view.ATable - looser count = 0
+13:53:22 [Thread-4] INFO charlie.view.ATable - push count = 1
+13:53:24 [AWT-EventQueue-0] INFO charlie.sidebet.view.SideBetView - A. side bet amount 5 updated new amt = 5
+13:53:24 [AWT-EventQueue-0] INFO charlie.sidebet.view.SideBetView - A. side bet amount 5 updated new amt = 10
+13:53:26 [Thread-14] INFO charlie.view.ATable - side bet = 10
+13:53:36 [Thread-4] INFO charlie.actor.Courier - receive starting shoe size = 43
+13:53:36 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:YOU:3D93CB799B3970BE
+13:53:36 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:DEALER:3D93CB799B3970BE
+13:53:37 [Thread-4] INFO charlie.actor.Courier - received card = H7 values = 7/7 hid = Anirudhs-MacBook-Pro.local:YOU:3D93CB799B3970BE
+13:53:37 [Thread-4] INFO charlie.actor.Courier - received card = CK values = 0/0 hid = Anirudhs-MacBook-Pro.local:DEALER:3D93CB799B3970BE
+13:53:38 [Thread-4] INFO charlie.actor.Courier - received card = S9 values = 16/16 hid = Anirudhs-MacBook-Pro.local:YOU:3D93CB799B3970BE
+13:53:39 [Thread-4] INFO charlie.actor.Courier - received card = D8 values = 8/8 hid = Anirudhs-MacBook-Pro.local:DEALER:3D93CB799B3970BE
+13:53:39 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:YOU:3D93CB799B3970BE
+13:53:44 [Thread-4] INFO charlie.actor.Courier - received card = C3 values = 19/19 hid = Anirudhs-MacBook-Pro.local:YOU:3D93CB799B3970BE
+13:53:45 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:DEALER:3D93CB799B3970BE
+13:53:45 [Thread-4] INFO charlie.actor.Courier - received card = null values = 18/18 hid = Anirudhs-MacBook-Pro.local:DEALER:3D93CB799B3970BE
+13:53:45 [Thread-4] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@74a977e6
+13:53:45 [Thread-4] INFO charlie.view.ATable - WIN for hid = Anirudhs-MacBook-Pro.local:YOU:3D93CB799B3970BE amt = 25.0
+13:53:45 [Thread-4] INFO charlie.sidebet.view.SideBetView - side bet outcome = 30.0
+13:53:45 [Thread-4] INFO charlie.sidebet.view.SideBetView - new bankroll = 1055.0
+13:53:45 [Thread-4] INFO charlie.actor.Courier - received ending shoe size = 38
+13:53:45 [Thread-4] INFO charlie.view.ATable - num hands = 2
+13:53:45 [Thread-4] INFO charlie.view.ATable - winner count = 1
+13:53:45 [Thread-4] INFO charlie.view.ATable - looser count = 0
+13:53:45 [Thread-4] INFO charlie.view.ATable - push count = 0
+13:53:46 [Thread-21] INFO charlie.view.ATable - side bet = 10
+13:53:56 [Thread-4] INFO charlie.actor.Courier - receive starting shoe size = 38
+13:53:56 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:YOU:5CD23609B0E20FC6
+13:53:56 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:DEALER:5CD23609B0E20FC6
+13:53:57 [Thread-4] INFO charlie.actor.Courier - received card = H9 values = 9/9 hid = Anirudhs-MacBook-Pro.local:YOU:5CD23609B0E20FC6
+13:53:58 [Thread-4] INFO charlie.actor.Courier - received card = CK values = 0/0 hid = Anirudhs-MacBook-Pro.local:DEALER:5CD23609B0E20FC6
+13:53:58 [Thread-4] INFO charlie.actor.Courier - received card = S7 values = 16/16 hid = Anirudhs-MacBook-Pro.local:YOU:5CD23609B0E20FC6
+13:53:59 [Thread-4] INFO charlie.actor.Courier - received card = D8 values = 8/8 hid = Anirudhs-MacBook-Pro.local:DEALER:5CD23609B0E20FC6
+13:53:59 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:YOU:5CD23609B0E20FC6
+13:54:00 [Thread-4] INFO charlie.actor.Courier - received card = C3 values = 19/19 hid = Anirudhs-MacBook-Pro.local:YOU:5CD23609B0E20FC6
+13:54:01 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:DEALER:5CD23609B0E20FC6
+13:54:01 [Thread-4] INFO charlie.actor.Courier - received card = null values = 18/18 hid = Anirudhs-MacBook-Pro.local:DEALER:5CD23609B0E20FC6
+13:54:01 [Thread-4] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@2a658388
+13:54:01 [Thread-4] INFO charlie.view.ATable - WIN for hid = Anirudhs-MacBook-Pro.local:YOU:5CD23609B0E20FC6 amt = 25.0
+13:54:01 [Thread-4] INFO charlie.sidebet.view.SideBetView - side bet outcome = -10.0
+13:54:01 [Thread-4] INFO charlie.sidebet.view.SideBetView - new bankroll = 1070.0
+13:54:01 [Thread-4] INFO charlie.actor.Courier - received ending shoe size = 33
+13:54:01 [Thread-4] INFO charlie.view.ATable - num hands = 2
+13:54:01 [Thread-4] INFO charlie.view.ATable - winner count = 1
+13:54:01 [Thread-4] INFO charlie.view.ATable - looser count = 0
+13:54:01 [Thread-4] INFO charlie.view.ATable - push count = 0
+13:54:02 [Thread-28] INFO charlie.view.ATable - side bet = 10
+13:54:12 [Thread-4] INFO charlie.actor.Courier - receive starting shoe size = 33
+13:54:12 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:YOU:73168F48E20BDAFD
+13:54:12 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:DEALER:73168F48E20BDAFD
+13:54:13 [Thread-4] INFO charlie.actor.Courier - received card = H7 values = 7/7 hid = Anirudhs-MacBook-Pro.local:YOU:73168F48E20BDAFD
+13:54:14 [Thread-4] INFO charlie.actor.Courier - received card = CK values = 0/0 hid = Anirudhs-MacBook-Pro.local:DEALER:73168F48E20BDAFD
+13:54:14 [Thread-4] INFO charlie.actor.Courier - received card = S9 values = 16/16 hid = Anirudhs-MacBook-Pro.local:YOU:73168F48E20BDAFD
+13:54:15 [Thread-4] INFO charlie.actor.Courier - received card = D10 values = 10/10 hid = Anirudhs-MacBook-Pro.local:DEALER:73168F48E20BDAFD
+13:54:15 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:YOU:73168F48E20BDAFD
+13:54:16 [Thread-4] INFO charlie.actor.Courier - received card = C3 values = 19/19 hid = Anirudhs-MacBook-Pro.local:YOU:73168F48E20BDAFD
+13:54:17 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:DEALER:73168F48E20BDAFD
+13:54:17 [Thread-4] INFO charlie.actor.Courier - received card = null values = 20/20 hid = Anirudhs-MacBook-Pro.local:DEALER:73168F48E20BDAFD
+13:54:17 [Thread-4] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@a39250a
+13:54:17 [Thread-4] INFO charlie.view.ATable - LOOSE for hid = Anirudhs-MacBook-Pro.local:YOU:73168F48E20BDAFD amt = 25.0
+13:54:17 [Thread-4] INFO charlie.sidebet.view.SideBetView - side bet outcome = 30.0
+13:54:17 [Thread-4] INFO charlie.sidebet.view.SideBetView - new bankroll = 1075.0
+13:54:17 [Thread-4] INFO charlie.actor.Courier - received ending shoe size = 28
+13:54:17 [Thread-4] INFO charlie.view.ATable - num hands = 2
+13:54:17 [Thread-4] INFO charlie.view.ATable - winner count = 0
+13:54:17 [Thread-4] INFO charlie.view.ATable - looser count = 1
+13:54:17 [Thread-4] INFO charlie.view.ATable - push count = 0
+13:54:18 [Thread-35] INFO charlie.view.ATable - side bet = 10
+13:54:28 [Thread-4] INFO charlie.actor.Courier - receive starting shoe size = 28
+13:54:28 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:YOU:670745C237ED5893
+13:54:28 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:DEALER:670745C237ED5893
+13:54:29 [Thread-4] INFO charlie.actor.Courier - received card = H9 values = 9/9 hid = Anirudhs-MacBook-Pro.local:YOU:670745C237ED5893
+13:54:29 [Thread-4] INFO charlie.actor.Courier - received card = CK values = 0/0 hid = Anirudhs-MacBook-Pro.local:DEALER:670745C237ED5893
+13:54:30 [Thread-4] INFO charlie.actor.Courier - received card = S7 values = 16/16 hid = Anirudhs-MacBook-Pro.local:YOU:670745C237ED5893
+13:54:31 [Thread-4] INFO charlie.actor.Courier - received card = D10 values = 10/10 hid = Anirudhs-MacBook-Pro.local:DEALER:670745C237ED5893
+13:54:31 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:YOU:670745C237ED5893
+13:54:33 [Thread-4] INFO charlie.actor.Courier - received card = C3 values = 19/19 hid = Anirudhs-MacBook-Pro.local:YOU:670745C237ED5893
+13:54:34 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:DEALER:670745C237ED5893
+13:54:34 [Thread-4] INFO charlie.actor.Courier - received card = null values = 20/20 hid = Anirudhs-MacBook-Pro.local:DEALER:670745C237ED5893
+13:54:34 [Thread-4] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@2c0ba57f
+13:54:34 [Thread-4] INFO charlie.view.ATable - LOOSE for hid = Anirudhs-MacBook-Pro.local:YOU:670745C237ED5893 amt = 25.0
+13:54:34 [Thread-4] INFO charlie.sidebet.view.SideBetView - side bet outcome = -10.0
+13:54:34 [Thread-4] INFO charlie.sidebet.view.SideBetView - new bankroll = 1040.0
+13:54:34 [Thread-4] INFO charlie.actor.Courier - received ending shoe size = 23
+13:54:34 [Thread-4] INFO charlie.view.ATable - num hands = 2
+13:54:34 [Thread-4] INFO charlie.view.ATable - winner count = 0
+13:54:34 [Thread-4] INFO charlie.view.ATable - looser count = 1
+13:54:34 [Thread-4] INFO charlie.view.ATable - push count = 0
+13:54:36 [Thread-42] INFO charlie.view.ATable - side bet = 10
+13:54:46 [Thread-4] INFO charlie.actor.Courier - receive starting shoe size = 23
+13:54:46 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:YOU:554DCD2B40B5F04B
+13:54:46 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:DEALER:554DCD2B40B5F04B
+13:54:47 [Thread-4] INFO charlie.actor.Courier - received card = HK values = 10/10 hid = Anirudhs-MacBook-Pro.local:YOU:554DCD2B40B5F04B
+13:54:48 [Thread-4] INFO charlie.actor.Courier - received card = CK values = 0/0 hid = Anirudhs-MacBook-Pro.local:DEALER:554DCD2B40B5F04B
+13:54:49 [Thread-4] INFO charlie.actor.Courier - received card = HQ values = 20/20 hid = Anirudhs-MacBook-Pro.local:YOU:554DCD2B40B5F04B
+13:54:49 [Thread-4] INFO charlie.actor.Courier - received card = D8 values = 8/8 hid = Anirudhs-MacBook-Pro.local:DEALER:554DCD2B40B5F04B
+13:54:49 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:YOU:554DCD2B40B5F04B
+13:54:50 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:DEALER:554DCD2B40B5F04B
+13:54:50 [Thread-4] INFO charlie.actor.Courier - received card = null values = 18/18 hid = Anirudhs-MacBook-Pro.local:DEALER:554DCD2B40B5F04B
+13:54:50 [Thread-4] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@62fbf036
+13:54:50 [Thread-4] INFO charlie.view.ATable - WIN for hid = Anirudhs-MacBook-Pro.local:YOU:554DCD2B40B5F04B amt = 25.0
+13:54:50 [Thread-4] INFO charlie.sidebet.view.SideBetView - side bet outcome = 250.0
+13:54:50 [Thread-4] INFO charlie.sidebet.view.SideBetView - new bankroll = 1315.0
+13:54:50 [Thread-4] INFO charlie.actor.Courier - received ending shoe size = 19
+13:54:50 [Thread-4] INFO charlie.view.ATable - num hands = 2
+13:54:50 [Thread-4] INFO charlie.view.ATable - winner count = 1
+13:54:50 [Thread-4] INFO charlie.view.ATable - looser count = 0
+13:54:50 [Thread-4] INFO charlie.view.ATable - push count = 0
+13:54:51 [Thread-48] INFO charlie.view.ATable - side bet = 10
+13:55:01 [Thread-4] INFO charlie.actor.Courier - receive starting shoe size = 19
+13:55:01 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:YOU:629BC2229CEFE94D
+13:55:01 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:DEALER:629BC2229CEFE94D
+13:55:02 [Thread-4] INFO charlie.actor.Courier - received card = HK values = 10/10 hid = Anirudhs-MacBook-Pro.local:YOU:629BC2229CEFE94D
+13:55:03 [Thread-4] INFO charlie.actor.Courier - received card = CK values = 0/0 hid = Anirudhs-MacBook-Pro.local:DEALER:629BC2229CEFE94D
+13:55:04 [Thread-4] INFO charlie.actor.Courier - received card = SQ values = 20/20 hid = Anirudhs-MacBook-Pro.local:YOU:629BC2229CEFE94D
+13:55:04 [Thread-4] INFO charlie.actor.Courier - received card = D8 values = 8/8 hid = Anirudhs-MacBook-Pro.local:DEALER:629BC2229CEFE94D
+13:55:04 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:YOU:629BC2229CEFE94D
+13:55:05 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:DEALER:629BC2229CEFE94D
+13:55:05 [Thread-4] INFO charlie.actor.Courier - received card = null values = 18/18 hid = Anirudhs-MacBook-Pro.local:DEALER:629BC2229CEFE94D
+13:55:05 [Thread-4] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@5613c2f7
+13:55:05 [Thread-4] INFO charlie.view.ATable - WIN for hid = Anirudhs-MacBook-Pro.local:YOU:629BC2229CEFE94D amt = 25.0
+13:55:05 [Thread-4] INFO charlie.sidebet.view.SideBetView - side bet outcome = -10.0
+13:55:05 [Thread-4] INFO charlie.sidebet.view.SideBetView - new bankroll = 1330.0
+13:55:05 [Thread-4] INFO charlie.actor.Courier - received ending shoe size = 15
+13:55:05 [Thread-4] INFO charlie.view.ATable - num hands = 2
+13:55:05 [Thread-4] INFO charlie.view.ATable - winner count = 1
+13:55:05 [Thread-4] INFO charlie.view.ATable - looser count = 0
+13:55:05 [Thread-4] INFO charlie.view.ATable - push count = 0
+13:55:06 [Thread-54] INFO charlie.view.ATable - side bet = 10
+13:55:16 [Thread-4] INFO charlie.actor.Courier - receive starting shoe size = 15
+13:55:16 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:YOU:3E16CD10465F0A8
+13:55:16 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:DEALER:3E16CD10465F0A8
+13:55:17 [Thread-4] INFO charlie.actor.Courier - received card = H8 values = 8/8 hid = Anirudhs-MacBook-Pro.local:YOU:3E16CD10465F0A8
+13:55:18 [Thread-4] INFO charlie.actor.Courier - received card = CK values = 0/0 hid = Anirudhs-MacBook-Pro.local:DEALER:3E16CD10465F0A8
+13:55:18 [Thread-4] INFO charlie.actor.Courier - received card = S5 values = 13/13 hid = Anirudhs-MacBook-Pro.local:YOU:3E16CD10465F0A8
+13:55:19 [Thread-4] INFO charlie.actor.Courier - received card = D6 values = 6/6 hid = Anirudhs-MacBook-Pro.local:DEALER:3E16CD10465F0A8
+13:55:19 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:YOU:3E16CD10465F0A8
+13:55:21 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:DEALER:3E16CD10465F0A8
+13:55:21 [Thread-4] INFO charlie.actor.Courier - received card = null values = 16/16 hid = Anirudhs-MacBook-Pro.local:DEALER:3E16CD10465F0A8
+13:55:22 [Thread-4] INFO charlie.actor.Courier - received card = DK values = 26/26 hid = Anirudhs-MacBook-Pro.local:DEALER:3E16CD10465F0A8
+13:55:22 [Thread-4] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@5836b1fd
+13:55:22 [Thread-4] INFO charlie.view.ATable - WIN for hid = Anirudhs-MacBook-Pro.local:YOU:3E16CD10465F0A8 amt = 25.0
+13:55:22 [Thread-4] INFO charlie.sidebet.view.SideBetView - side bet outcome = 10.0
+13:55:22 [Thread-4] INFO charlie.sidebet.view.SideBetView - new bankroll = 1365.0
+13:55:22 [Thread-4] INFO charlie.actor.Courier - received ending shoe size = 10
+13:55:22 [Thread-4] INFO charlie.view.ATable - num hands = 2
+13:55:22 [Thread-4] INFO charlie.view.ATable - winner count = 1
+13:55:22 [Thread-4] INFO charlie.view.ATable - looser count = 0
+13:55:22 [Thread-4] INFO charlie.view.ATable - push count = 0
+13:55:27 [Thread-61] INFO charlie.view.ATable - side bet = 10
+13:55:37 [Thread-4] INFO charlie.actor.Courier - receive starting shoe size = 10
+13:55:37 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:YOU:1EEDE4F7FA174EF9
+13:55:37 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:DEALER:1EEDE4F7FA174EF9
+13:55:38 [Thread-4] INFO charlie.actor.Courier - received card = H7 values = 7/7 hid = Anirudhs-MacBook-Pro.local:YOU:1EEDE4F7FA174EF9
+13:55:39 [Thread-4] INFO charlie.actor.Courier - received card = CK values = 0/0 hid = Anirudhs-MacBook-Pro.local:DEALER:1EEDE4F7FA174EF9
+13:55:40 [Thread-4] INFO charlie.actor.Courier - received card = S6 values = 13/13 hid = Anirudhs-MacBook-Pro.local:YOU:1EEDE4F7FA174EF9
+13:55:40 [Thread-4] INFO charlie.actor.Courier - received card = D6 values = 6/6 hid = Anirudhs-MacBook-Pro.local:DEALER:1EEDE4F7FA174EF9
+13:55:40 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:YOU:1EEDE4F7FA174EF9
+13:55:43 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:DEALER:1EEDE4F7FA174EF9
+13:55:43 [Thread-4] INFO charlie.actor.Courier - received card = null values = 16/16 hid = Anirudhs-MacBook-Pro.local:DEALER:1EEDE4F7FA174EF9
+13:55:44 [Thread-4] INFO charlie.actor.Courier - received card = DK values = 26/26 hid = Anirudhs-MacBook-Pro.local:DEALER:1EEDE4F7FA174EF9
+13:55:44 [Thread-4] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@478a7107
+13:55:44 [Thread-4] INFO charlie.view.ATable - WIN for hid = Anirudhs-MacBook-Pro.local:YOU:1EEDE4F7FA174EF9 amt = 25.0
+13:55:44 [Thread-4] INFO charlie.sidebet.view.SideBetView - side bet outcome = 30.0
+13:55:44 [Thread-4] INFO charlie.sidebet.view.SideBetView - new bankroll = 1420.0
+13:55:44 [Thread-4] INFO charlie.actor.Courier - received ending shoe size = 5
+13:55:44 [Thread-4] INFO charlie.view.ATable - num hands = 2
+13:55:44 [Thread-4] INFO charlie.view.ATable - winner count = 1
+13:55:44 [Thread-4] INFO charlie.view.ATable - looser count = 0
+13:55:44 [Thread-4] INFO charlie.view.ATable - push count = 0
+13:55:47 [Thread-68] INFO charlie.view.ATable - side bet = 10
+13:55:57 [Thread-4] INFO charlie.actor.Courier - receive starting shoe size = 5
+13:55:57 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:YOU:F0A4B0DD2F32F0F
+13:55:57 [Thread-4] INFO charlie.actor.Courier - starting hand: Anirudhs-MacBook-Pro.local:DEALER:F0A4B0DD2F32F0F
+13:55:58 [Thread-4] INFO charlie.actor.Courier - received card = H6 values = 6/6 hid = Anirudhs-MacBook-Pro.local:YOU:F0A4B0DD2F32F0F
+13:55:58 [Thread-4] INFO charlie.actor.Courier - received card = CK values = 0/0 hid = Anirudhs-MacBook-Pro.local:DEALER:F0A4B0DD2F32F0F
+13:55:59 [Thread-4] INFO charlie.actor.Courier - received card = S8 values = 14/14 hid = Anirudhs-MacBook-Pro.local:YOU:F0A4B0DD2F32F0F
+13:56:00 [Thread-4] INFO charlie.actor.Courier - received card = D6 values = 6/6 hid = Anirudhs-MacBook-Pro.local:DEALER:F0A4B0DD2F32F0F
+13:56:00 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:YOU:F0A4B0DD2F32F0F
+13:56:01 [Thread-4] INFO charlie.actor.Courier - got trun = Anirudhs-MacBook-Pro.local:DEALER:F0A4B0DD2F32F0F
+13:56:01 [Thread-4] INFO charlie.actor.Courier - received card = null values = 16/16 hid = Anirudhs-MacBook-Pro.local:DEALER:F0A4B0DD2F32F0F
+13:56:02 [Thread-4] INFO charlie.actor.Courier - received card = DK values = 26/26 hid = Anirudhs-MacBook-Pro.local:DEALER:F0A4B0DD2F32F0F
+13:56:02 [Thread-4] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@784dd25b
+13:56:02 [Thread-4] INFO charlie.view.ATable - WIN for hid = Anirudhs-MacBook-Pro.local:YOU:F0A4B0DD2F32F0F amt = 25.0
+13:56:02 [Thread-4] INFO charlie.sidebet.view.SideBetView - side bet outcome = -10.0
+13:56:02 [Thread-4] INFO charlie.sidebet.view.SideBetView - new bankroll = 1435.0
+13:56:02 [Thread-4] INFO charlie.actor.Courier - received ending shoe size = 0
+13:56:02 [Thread-4] INFO charlie.view.ATable - num hands = 2
+13:56:02 [Thread-4] INFO charlie.view.ATable - winner count = 1
+13:56:02 [Thread-4] INFO charlie.view.ATable - looser count = 0
+13:56:02 [Thread-4] INFO charlie.view.ATable - push count = 0
+BUILD SUCCESSFUL (total time: 3 minutes 30 seconds)

@@ -1,0 +1,1923 @@
+ant -f C:\\Users\\kaush\\Desktop\\Anirudh\\charlie -Djavac.includes=charlie/GameFrame.java -Dnb.internal.action.name=run.single -Drun.class=charlie.GameFrame run-single
+init:
+Deleting: C:\Users\kaush\Desktop\Anirudh\charlie\build\built-jar.properties
+deps-jar:
+Updating property file: C:\Users\kaush\Desktop\Anirudh\charlie\build\built-jar.properties
+Compiling 1 source file to C:\Users\kaush\Desktop\Anirudh\charlie\build\classes
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+compile-single:
+run-single:
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/kaush/Desktop/Anirudh/charlie/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/kaush/Desktop/Anirudh/MyCharliePlugins/dist/lib/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+06:52:38 [AWT-EventQueue-0] INFO charlie.GameFrame - client started
+06:52:39 [AWT-EventQueue-0] INFO charlie.view.ATable - successfully loaded autopilot
+06:52:39 [AWT-EventQueue-0] INFO charlie.GameFrame - init done
+06:52:41 [AWT-EventQueue-0] INFO charlie.GameFrame - opened socket to game server 127.0.0.1:9000
+06:52:41 [AWT-EventQueue-0] INFO charlie.GameFrame - got house addr = 127.0.0.1:1234:HOUSE
+06:52:41 [AWT-EventQueue-0] INFO com.googlecode.actorom.impl.remote.channel.RemoteChannelConnector - Connected to message channel at: 127.0.0.1:1234
+06:52:41 [AWT-EventQueue-0] INFO com.googlecode.actorom.impl.remote.channel.RemoteChannelConnector - Connected to message channel at: 127.0.0.1:1234
+06:52:41 [AWT-EventQueue-0] INFO charlie.GameFrame - got house actor
+06:52:41 [AWT-EventQueue-0] INFO com.googlecode.actorom.impl.remote.channel.RemoteChannel - Bound message channel to: 127.0.0.1:2345
+06:52:41 [AWT-EventQueue-0] INFO com.googlecode.actorom.impl.core.AbstractTopology - Spawning actor with address: 127.0.0.1:2345:COURIER
+06:52:41 [AWT-EventQueue-0] INFO charlie.GameFrame - spawned my addr = 127.0.0.1:2345:COURIER
+06:52:41 [AWT-EventQueue-0] INFO charlie.GameFrame - sent ARRIVAL to com.googlecode.actorom.impl.remote.RemoteActorProxy@2d52023f
+06:52:41 [Thread-6] INFO charlie.actor.Courier - received charlie.message.view.to.Ready@7c6a6251 from 127.0.0.1:1234:PLAYER-1
+06:52:41 [Thread-6] INFO com.googlecode.actorom.impl.remote.channel.RemoteChannelConnector - Connected to message channel at: 127.0.0.1:1234
+06:52:41 [Thread-6] INFO com.googlecode.actorom.impl.remote.channel.RemoteChannelConnector - Connected to message channel at: 127.0.0.1:1234
+06:52:41 [AWT-EventQueue-0] INFO charlie.GameFrame - connected to courier bankroll = 1000.0
+06:52:45 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+06:52:45 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:2694520DA43A889
+06:52:45 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:266D6088B6A2FE1F
+06:52:46 [Thread-6] INFO charlie.actor.Courier - received card = DQ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:2694520DA43A889
+06:52:47 [Thread-6] INFO charlie.actor.Courier - received card = S7 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:266D6088B6A2FE1F
+06:52:48 [Thread-6] INFO charlie.actor.Courier - received card = C7 values = 17/17 hid = LAPTOP-CKJGDIFT:YOU:2694520DA43A889
+06:52:48 [Thread-6] INFO charlie.actor.Courier - received card = S10 values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:266D6088B6A2FE1F
+06:52:48 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:2694520DA43A889
+06:52:49 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:266D6088B6A2FE1F
+06:52:49 [Thread-6] INFO charlie.actor.Courier - received card = null values = 17/17 hid = LAPTOP-CKJGDIFT:DEALER:266D6088B6A2FE1F
+06:52:49 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Push@66cbdefb
+06:52:49 [Thread-6] INFO charlie.view.ATable - PUSH for hid = LAPTOP-CKJGDIFT:YOU:2694520DA43A889 amt = 5.0
+06:52:49 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 48
+06:52:49 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:52:49 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:52:49 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:52:49 [Thread-6] INFO charlie.view.ATable - push count = 1
+06:52:52 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 48
+06:52:52 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:2AC9CAE26D85EC89
+06:52:52 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:1372ACF1FF3A39D3
+06:52:53 [Thread-6] INFO charlie.actor.Courier - received card = D4 values = 4/4 hid = LAPTOP-CKJGDIFT:YOU:2AC9CAE26D85EC89
+06:52:54 [Thread-6] INFO charlie.actor.Courier - received card = DJ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:1372ACF1FF3A39D3
+06:52:54 [Thread-6] INFO charlie.actor.Courier - received card = DK values = 14/14 hid = LAPTOP-CKJGDIFT:YOU:2AC9CAE26D85EC89
+06:52:55 [Thread-6] INFO charlie.actor.Courier - received card = C3 values = 3/3 hid = LAPTOP-CKJGDIFT:DEALER:1372ACF1FF3A39D3
+06:52:55 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:2AC9CAE26D85EC89
+06:52:57 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:1372ACF1FF3A39D3
+06:52:57 [Thread-6] INFO charlie.actor.Courier - received card = null values = 13/13 hid = LAPTOP-CKJGDIFT:DEALER:1372ACF1FF3A39D3
+06:52:58 [Thread-6] INFO charlie.actor.Courier - received card = D6 values = 19/19 hid = LAPTOP-CKJGDIFT:DEALER:1372ACF1FF3A39D3
+06:52:58 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@36c666d0
+06:52:58 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:2AC9CAE26D85EC89 amt = 5.0
+06:52:58 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 43
+06:52:58 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:52:58 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:52:58 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:52:58 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:53:01 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 43
+06:53:01 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:5019A947275D69CD
+06:53:01 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:40213668389F0E17
+06:53:02 [Thread-6] INFO charlie.actor.Courier - received card = C2 values = 2/2 hid = LAPTOP-CKJGDIFT:YOU:5019A947275D69CD
+06:53:02 [Thread-6] INFO charlie.actor.Courier - received card = H9 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:40213668389F0E17
+06:53:03 [Thread-6] INFO charlie.actor.Courier - received card = H5 values = 7/7 hid = LAPTOP-CKJGDIFT:YOU:5019A947275D69CD
+06:53:04 [Thread-6] INFO charlie.actor.Courier - received card = SK values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:40213668389F0E17
+06:53:04 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:5019A947275D69CD
+06:53:05 [Thread-6] INFO charlie.actor.Courier - received card = H3 values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:5019A947275D69CD
+06:53:07 [Thread-6] INFO charlie.actor.Courier - received card = D8 values = 18/18 hid = LAPTOP-CKJGDIFT:YOU:5019A947275D69CD
+06:53:08 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:40213668389F0E17
+06:53:08 [Thread-6] INFO charlie.actor.Courier - received card = null values = 19/19 hid = LAPTOP-CKJGDIFT:DEALER:40213668389F0E17
+06:53:08 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@6ae94c53
+06:53:08 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:5019A947275D69CD amt = 5.0
+06:53:08 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 37
+06:53:08 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:53:08 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:53:08 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:53:08 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:53:11 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 37
+06:53:11 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:2FF309D0EC2BB203
+06:53:11 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:12D1B7A54D5686A
+06:53:12 [Thread-6] INFO charlie.actor.Courier - received card = H8 values = 8/8 hid = LAPTOP-CKJGDIFT:YOU:2FF309D0EC2BB203
+06:53:12 [Thread-6] INFO charlie.actor.Courier - received card = D10 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:12D1B7A54D5686A
+06:53:13 [Thread-6] INFO charlie.actor.Courier - received card = CJ values = 18/18 hid = LAPTOP-CKJGDIFT:YOU:2FF309D0EC2BB203
+06:53:14 [Thread-6] INFO charlie.actor.Courier - received card = HJ values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:12D1B7A54D5686A
+06:53:14 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:2FF309D0EC2BB203
+06:53:15 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:12D1B7A54D5686A
+06:53:15 [Thread-6] INFO charlie.actor.Courier - received card = null values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:12D1B7A54D5686A
+06:53:15 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@53d52e4b
+06:53:15 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:2FF309D0EC2BB203 amt = 10.0
+06:53:15 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 33
+06:53:15 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:53:15 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:53:15 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:53:15 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:53:17 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 33
+06:53:17 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:252A68324493BD75
+06:53:17 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:3834D8DA792C4DA8
+06:53:18 [Thread-6] INFO charlie.actor.Courier - received card = S6 values = 6/6 hid = LAPTOP-CKJGDIFT:YOU:252A68324493BD75
+06:53:19 [Thread-6] INFO charlie.actor.Courier - received card = C10 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:3834D8DA792C4DA8
+06:53:20 [Thread-6] INFO charlie.actor.Courier - received card = HQ values = 16/16 hid = LAPTOP-CKJGDIFT:YOU:252A68324493BD75
+06:53:20 [Thread-6] INFO charlie.actor.Courier - received card = CA values = 1/11 hid = LAPTOP-CKJGDIFT:DEALER:3834D8DA792C4DA8
+06:53:20 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:3834D8DA792C4DA8
+06:53:20 [Thread-6] INFO charlie.actor.Courier - received card = null values = 11/21 hid = LAPTOP-CKJGDIFT:DEALER:3834D8DA792C4DA8
+06:53:20 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@2cbdb276
+06:53:20 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:252A68324493BD75 amt = 5.0
+06:53:20 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 29
+06:53:20 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:53:20 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:53:20 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:53:20 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:53:23 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 29
+06:53:23 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:2A91BDEF29AA1BD1
+06:53:23 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:128112B4488CDB
+06:53:24 [Thread-6] INFO charlie.actor.Courier - received card = S4 values = 4/4 hid = LAPTOP-CKJGDIFT:YOU:2A91BDEF29AA1BD1
+06:53:25 [Thread-6] INFO charlie.actor.Courier - received card = D2 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:128112B4488CDB
+06:53:25 [Thread-6] INFO charlie.actor.Courier - received card = C4 values = 8/8 hid = LAPTOP-CKJGDIFT:YOU:2A91BDEF29AA1BD1
+06:53:26 [Thread-6] INFO charlie.actor.Courier - received card = H10 values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:128112B4488CDB
+06:53:26 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:2A91BDEF29AA1BD1
+06:53:28 [Thread-6] INFO charlie.actor.Courier - received card = SJ values = 18/18 hid = LAPTOP-CKJGDIFT:YOU:2A91BDEF29AA1BD1
+06:53:29 [Thread-6] INFO charlie.actor.Courier - received card = D5 values = 23/23 hid = LAPTOP-CKJGDIFT:YOU:2A91BDEF29AA1BD1
+06:53:29 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@57198e37
+06:53:29 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:2A91BDEF29AA1BD1 amt = 5.0
+06:53:29 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:128112B4488CDB
+06:53:29 [Thread-6] INFO charlie.actor.Courier - received card = null values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:128112B4488CDB
+06:53:29 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 23
+06:53:29 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:53:29 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:53:29 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:53:29 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:53:32 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 23
+06:53:32 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:22FCDFB353E3F89D
+06:53:32 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:1D48F0C0F502306
+06:53:33 [Thread-6] INFO charlie.actor.Courier - received card = H4 values = 4/4 hid = LAPTOP-CKJGDIFT:YOU:22FCDFB353E3F89D
+06:53:33 [Thread-6] INFO charlie.actor.Courier - received card = H2 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:1D48F0C0F502306
+06:53:34 [Thread-6] INFO charlie.actor.Courier - received card = S3 values = 7/7 hid = LAPTOP-CKJGDIFT:YOU:22FCDFB353E3F89D
+06:53:35 [Thread-6] INFO charlie.actor.Courier - received card = S9 values = 9/9 hid = LAPTOP-CKJGDIFT:DEALER:1D48F0C0F502306
+06:53:35 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:22FCDFB353E3F89D
+06:53:36 [Thread-6] INFO charlie.actor.Courier - received card = DA values = 8/18 hid = LAPTOP-CKJGDIFT:YOU:22FCDFB353E3F89D
+06:53:36 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:1D48F0C0F502306
+06:53:36 [Thread-6] INFO charlie.actor.Courier - received card = null values = 11/11 hid = LAPTOP-CKJGDIFT:DEALER:1D48F0C0F502306
+06:53:36 [Thread-6] INFO charlie.actor.Courier - received shuffle
+06:53:37 [Thread-6] INFO charlie.actor.Courier - received card = SA values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:1D48F0C0F502306
+06:53:38 [Thread-6] INFO charlie.actor.Courier - received card = S2 values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:1D48F0C0F502306
+06:53:38 [Thread-6] INFO charlie.actor.Courier - received card = D7 values = 21/21 hid = LAPTOP-CKJGDIFT:DEALER:1D48F0C0F502306
+06:53:38 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@e787273
+06:53:38 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:22FCDFB353E3F89D amt = 5.0
+06:53:38 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 52
+06:53:38 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:53:38 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:53:38 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:53:38 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:53:44 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+06:53:44 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:593BEC3DB5AA4AA0
+06:53:44 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:7B1E9DBA76B7E74F
+06:53:45 [Thread-6] INFO charlie.actor.Courier - received card = HA values = 1/11 hid = LAPTOP-CKJGDIFT:YOU:593BEC3DB5AA4AA0
+06:53:46 [Thread-6] INFO charlie.actor.Courier - received card = C9 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:7B1E9DBA76B7E74F
+06:53:46 [Thread-6] INFO charlie.actor.Courier - received card = HQ values = 11/21 hid = LAPTOP-CKJGDIFT:YOU:593BEC3DB5AA4AA0
+06:53:46 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Blackjack@6ceca0a9
+06:53:46 [Thread-6] INFO charlie.view.ATable - BJ for hid = LAPTOP-CKJGDIFT:YOU:593BEC3DB5AA4AA0 amt = 7.5
+06:53:47 [Thread-6] INFO charlie.actor.Courier - received card = D3 values = 3/3 hid = LAPTOP-CKJGDIFT:DEALER:7B1E9DBA76B7E74F
+06:53:47 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:7B1E9DBA76B7E74F
+06:53:47 [Thread-6] INFO charlie.actor.Courier - received card = null values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:7B1E9DBA76B7E74F
+06:53:47 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 48
+06:53:47 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:53:47 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:53:47 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:53:47 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:53:50 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 48
+06:53:50 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:299C9E841B4265DC
+06:53:50 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:58646E0AB837FCB3
+06:53:51 [Thread-6] INFO charlie.actor.Courier - received card = D7 values = 7/7 hid = LAPTOP-CKJGDIFT:YOU:299C9E841B4265DC
+06:53:52 [Thread-6] INFO charlie.actor.Courier - received card = CJ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:58646E0AB837FCB3
+06:53:52 [Thread-6] INFO charlie.actor.Courier - received card = DA values = 8/18 hid = LAPTOP-CKJGDIFT:YOU:299C9E841B4265DC
+06:53:53 [Thread-6] INFO charlie.actor.Courier - received card = H2 values = 2/2 hid = LAPTOP-CKJGDIFT:DEALER:58646E0AB837FCB3
+06:53:53 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:299C9E841B4265DC
+06:53:55 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:58646E0AB837FCB3
+06:53:55 [Thread-6] INFO charlie.actor.Courier - received card = null values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:58646E0AB837FCB3
+06:53:56 [Thread-6] INFO charlie.actor.Courier - received card = S9 values = 21/21 hid = LAPTOP-CKJGDIFT:DEALER:58646E0AB837FCB3
+06:53:56 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@34759eaf
+06:53:56 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:299C9E841B4265DC amt = 5.0
+06:53:56 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 43
+06:53:56 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:53:56 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:53:56 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:53:56 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:53:58 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 43
+06:53:58 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:157DE8EE275F12A4
+06:53:58 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:5A32C6B9113B7A1
+06:53:59 [Thread-6] INFO charlie.actor.Courier - received card = DK values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:157DE8EE275F12A4
+06:54:00 [Thread-6] INFO charlie.actor.Courier - received card = H9 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:5A32C6B9113B7A1
+06:54:01 [Thread-6] INFO charlie.actor.Courier - received card = H4 values = 14/14 hid = LAPTOP-CKJGDIFT:YOU:157DE8EE275F12A4
+06:54:02 [Thread-6] INFO charlie.actor.Courier - received card = C2 values = 2/2 hid = LAPTOP-CKJGDIFT:DEALER:5A32C6B9113B7A1
+06:54:02 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:157DE8EE275F12A4
+06:54:03 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:5A32C6B9113B7A1
+06:54:03 [Thread-6] INFO charlie.actor.Courier - received card = null values = 11/11 hid = LAPTOP-CKJGDIFT:DEALER:5A32C6B9113B7A1
+06:54:04 [Thread-6] INFO charlie.actor.Courier - received card = S8 values = 19/19 hid = LAPTOP-CKJGDIFT:DEALER:5A32C6B9113B7A1
+06:54:04 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@27bb9c5a
+06:54:04 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:157DE8EE275F12A4 amt = 5.0
+06:54:04 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 38
+06:54:04 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:54:04 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:54:04 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:54:04 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:54:06 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 38
+06:54:06 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:77746A6F4F47EA9A
+06:54:06 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:640EBA718AE9EFD9
+06:54:07 [Thread-6] INFO charlie.actor.Courier - received card = D2 values = 2/2 hid = LAPTOP-CKJGDIFT:YOU:77746A6F4F47EA9A
+06:54:08 [Thread-6] INFO charlie.actor.Courier - received card = S2 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:640EBA718AE9EFD9
+06:54:09 [Thread-6] INFO charlie.actor.Courier - received card = D10 values = 12/12 hid = LAPTOP-CKJGDIFT:YOU:77746A6F4F47EA9A
+06:54:10 [Thread-6] INFO charlie.actor.Courier - received card = C6 values = 6/6 hid = LAPTOP-CKJGDIFT:DEALER:640EBA718AE9EFD9
+06:54:10 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:77746A6F4F47EA9A
+06:54:11 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:640EBA718AE9EFD9
+06:54:11 [Thread-6] INFO charlie.actor.Courier - received card = null values = 8/8 hid = LAPTOP-CKJGDIFT:DEALER:640EBA718AE9EFD9
+06:54:11 [Thread-6] INFO charlie.actor.Courier - received card = H6 values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:640EBA718AE9EFD9
+06:54:12 [Thread-6] INFO charlie.actor.Courier - received card = SJ values = 24/24 hid = LAPTOP-CKJGDIFT:DEALER:640EBA718AE9EFD9
+06:54:12 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@3225382
+06:54:12 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:77746A6F4F47EA9A amt = 5.0
+06:54:12 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 32
+06:54:12 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:54:12 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:54:12 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:54:12 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:54:15 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 32
+06:54:15 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:410D20E6592980DA
+06:54:15 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:6C4B0A7377EEFEFE
+06:54:16 [Thread-6] INFO charlie.actor.Courier - received card = C5 values = 5/5 hid = LAPTOP-CKJGDIFT:YOU:410D20E6592980DA
+06:54:16 [Thread-6] INFO charlie.actor.Courier - received card = D9 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:6C4B0A7377EEFEFE
+06:54:17 [Thread-6] INFO charlie.actor.Courier - received card = H5 values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:410D20E6592980DA
+06:54:18 [Thread-6] INFO charlie.actor.Courier - received card = S6 values = 6/6 hid = LAPTOP-CKJGDIFT:DEALER:6C4B0A7377EEFEFE
+06:54:18 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:410D20E6592980DA
+06:54:19 [Thread-6] INFO charlie.actor.Courier - received card = C10 values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:410D20E6592980DA
+06:54:20 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:6C4B0A7377EEFEFE
+06:54:20 [Thread-6] INFO charlie.actor.Courier - received card = null values = 15/15 hid = LAPTOP-CKJGDIFT:DEALER:6C4B0A7377EEFEFE
+06:54:21 [Thread-6] INFO charlie.actor.Courier - received card = DJ values = 25/25 hid = LAPTOP-CKJGDIFT:DEALER:6C4B0A7377EEFEFE
+06:54:21 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@6aec85dc
+06:54:21 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:410D20E6592980DA amt = 10.0
+06:54:21 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 26
+06:54:21 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:54:21 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:54:21 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:54:21 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:54:23 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 26
+06:54:23 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:34BF76991C0BD9F7
+06:54:23 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:72916DB2057EF4D4
+06:54:24 [Thread-6] INFO charlie.actor.Courier - received card = SQ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:34BF76991C0BD9F7
+06:54:25 [Thread-6] INFO charlie.actor.Courier - received card = C4 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:72916DB2057EF4D4
+06:54:26 [Thread-6] INFO charlie.actor.Courier - received card = CK values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:34BF76991C0BD9F7
+06:54:26 [Thread-6] INFO charlie.actor.Courier - received card = H10 values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:72916DB2057EF4D4
+06:54:26 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:34BF76991C0BD9F7
+06:54:28 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:72916DB2057EF4D4
+06:54:28 [Thread-6] INFO charlie.actor.Courier - received card = null values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:72916DB2057EF4D4
+06:54:29 [Thread-6] INFO charlie.actor.Courier - received card = SK values = 24/24 hid = LAPTOP-CKJGDIFT:DEALER:72916DB2057EF4D4
+06:54:29 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@4cf1aa82
+06:54:29 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:34BF76991C0BD9F7 amt = 15.0
+06:54:29 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 21
+06:54:29 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:54:29 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:54:29 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:54:29 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:54:32 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 21
+06:54:32 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:5C97880F3D93FC7
+06:54:32 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:51E6C1E22B312071
+06:54:33 [Thread-6] INFO charlie.actor.Courier - received card = C7 values = 7/7 hid = LAPTOP-CKJGDIFT:YOU:5C97880F3D93FC7
+06:54:33 [Thread-6] INFO charlie.actor.Courier - received card = D4 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:51E6C1E22B312071
+06:54:34 [Thread-6] INFO charlie.actor.Courier - received card = D5 values = 12/12 hid = LAPTOP-CKJGDIFT:YOU:5C97880F3D93FC7
+06:54:34 [Thread-6] INFO charlie.actor.Courier - received shuffle
+06:54:35 [Thread-6] INFO charlie.actor.Courier - received card = CQ values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:51E6C1E22B312071
+06:54:35 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:5C97880F3D93FC7
+06:54:36 [Thread-6] INFO charlie.actor.Courier - received card = SA values = 13/13 hid = LAPTOP-CKJGDIFT:YOU:5C97880F3D93FC7
+06:54:37 [Thread-6] INFO charlie.actor.Courier - received card = D8 values = 21/21 hid = LAPTOP-CKJGDIFT:YOU:5C97880F3D93FC7
+06:54:37 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:51E6C1E22B312071
+06:54:37 [Thread-6] INFO charlie.actor.Courier - received card = null values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:51E6C1E22B312071
+06:54:38 [Thread-6] INFO charlie.actor.Courier - received card = S7 values = 21/21 hid = LAPTOP-CKJGDIFT:DEALER:51E6C1E22B312071
+06:54:38 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Push@4e81fc09
+06:54:38 [Thread-6] INFO charlie.view.ATable - PUSH for hid = LAPTOP-CKJGDIFT:YOU:5C97880F3D93FC7 amt = 5.0
+06:54:38 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 52
+06:54:38 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:54:38 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:54:38 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:54:38 [Thread-6] INFO charlie.view.ATable - push count = 1
+06:54:43 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+06:54:43 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:3A732A04410650F0
+06:54:43 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:F6D942D7E5182F1
+06:54:44 [Thread-6] INFO charlie.actor.Courier - received card = HA values = 1/11 hid = LAPTOP-CKJGDIFT:YOU:3A732A04410650F0
+06:54:45 [Thread-6] INFO charlie.actor.Courier - received card = D4 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:F6D942D7E5182F1
+06:54:46 [Thread-6] INFO charlie.actor.Courier - received card = HJ values = 11/21 hid = LAPTOP-CKJGDIFT:YOU:3A732A04410650F0
+06:54:46 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Blackjack@3d22bc30
+06:54:46 [Thread-6] INFO charlie.view.ATable - BJ for hid = LAPTOP-CKJGDIFT:YOU:3A732A04410650F0 amt = 7.5
+06:54:47 [Thread-6] INFO charlie.actor.Courier - received card = H8 values = 8/8 hid = LAPTOP-CKJGDIFT:DEALER:F6D942D7E5182F1
+06:54:47 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:F6D942D7E5182F1
+06:54:47 [Thread-6] INFO charlie.actor.Courier - received card = null values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:F6D942D7E5182F1
+06:54:47 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 48
+06:54:47 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:54:47 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:54:47 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:54:47 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:54:49 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 48
+06:54:49 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:7C214A49C92ECED0
+06:54:49 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:186E23E77D6F6C18
+06:54:50 [Thread-6] INFO charlie.actor.Courier - received card = H2 values = 2/2 hid = LAPTOP-CKJGDIFT:YOU:7C214A49C92ECED0
+06:54:51 [Thread-6] INFO charlie.actor.Courier - received card = C6 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:186E23E77D6F6C18
+06:54:52 [Thread-6] INFO charlie.actor.Courier - received card = H3 values = 5/5 hid = LAPTOP-CKJGDIFT:YOU:7C214A49C92ECED0
+06:54:53 [Thread-6] INFO charlie.actor.Courier - received card = C4 values = 4/4 hid = LAPTOP-CKJGDIFT:DEALER:186E23E77D6F6C18
+06:54:53 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:7C214A49C92ECED0
+06:54:53 [Thread-6] INFO charlie.actor.Courier - received card = SA values = 6/16 hid = LAPTOP-CKJGDIFT:YOU:7C214A49C92ECED0
+06:54:54 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:186E23E77D6F6C18
+06:54:54 [Thread-6] INFO charlie.actor.Courier - received card = null values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:186E23E77D6F6C18
+06:54:55 [Thread-6] INFO charlie.actor.Courier - received card = HK values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:186E23E77D6F6C18
+06:54:55 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@474fa0e8
+06:54:55 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:7C214A49C92ECED0 amt = 5.0
+06:54:55 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 42
+06:54:55 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:54:55 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:54:55 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:54:55 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:54:58 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 42
+06:54:58 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:502B59F13C922336
+06:54:58 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:326464CD172A8F15
+06:54:59 [Thread-6] INFO charlie.actor.Courier - received card = CA values = 1/11 hid = LAPTOP-CKJGDIFT:YOU:502B59F13C922336
+06:54:59 [Thread-6] INFO charlie.actor.Courier - received card = H5 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:326464CD172A8F15
+06:55:00 [Thread-6] INFO charlie.actor.Courier - received card = C9 values = 10/20 hid = LAPTOP-CKJGDIFT:YOU:502B59F13C922336
+06:55:01 [Thread-6] INFO charlie.actor.Courier - received card = D2 values = 2/2 hid = LAPTOP-CKJGDIFT:DEALER:326464CD172A8F15
+06:55:01 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:502B59F13C922336
+06:55:02 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:326464CD172A8F15
+06:55:02 [Thread-6] INFO charlie.actor.Courier - received card = null values = 7/7 hid = LAPTOP-CKJGDIFT:DEALER:326464CD172A8F15
+06:55:02 [Thread-6] INFO charlie.actor.Courier - received card = D10 values = 17/17 hid = LAPTOP-CKJGDIFT:DEALER:326464CD172A8F15
+06:55:02 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@564bb492
+06:55:02 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:502B59F13C922336 amt = 5.0
+06:55:02 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 37
+06:55:02 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:55:02 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:55:02 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:55:02 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:55:05 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 37
+06:55:05 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:2AA54D17920A0EEC
+06:55:05 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:5E9B9FDD342AECCE
+06:55:06 [Thread-6] INFO charlie.actor.Courier - received card = H6 values = 6/6 hid = LAPTOP-CKJGDIFT:YOU:2AA54D17920A0EEC
+06:55:06 [Thread-6] INFO charlie.actor.Courier - received card = H4 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:5E9B9FDD342AECCE
+06:55:07 [Thread-6] INFO charlie.actor.Courier - received card = H10 values = 16/16 hid = LAPTOP-CKJGDIFT:YOU:2AA54D17920A0EEC
+06:55:08 [Thread-6] INFO charlie.actor.Courier - received card = C3 values = 3/3 hid = LAPTOP-CKJGDIFT:DEALER:5E9B9FDD342AECCE
+06:55:08 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:2AA54D17920A0EEC
+06:55:09 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:5E9B9FDD342AECCE
+06:55:09 [Thread-6] INFO charlie.actor.Courier - received card = null values = 7/7 hid = LAPTOP-CKJGDIFT:DEALER:5E9B9FDD342AECCE
+06:55:09 [Thread-6] INFO charlie.actor.Courier - received card = CJ values = 17/17 hid = LAPTOP-CKJGDIFT:DEALER:5E9B9FDD342AECCE
+06:55:09 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@428fc137
+06:55:09 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:2AA54D17920A0EEC amt = 5.0
+06:55:09 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 32
+06:55:09 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:55:09 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:55:09 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:55:09 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:55:12 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 32
+06:55:12 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:33E02BF9D647EEF6
+06:55:12 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:5810778F143A477D
+06:55:13 [Thread-6] INFO charlie.actor.Courier - received card = H9 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:33E02BF9D647EEF6
+06:55:13 [Thread-6] INFO charlie.actor.Courier - received card = SJ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:5810778F143A477D
+06:55:14 [Thread-6] INFO charlie.actor.Courier - received card = S10 values = 19/19 hid = LAPTOP-CKJGDIFT:YOU:33E02BF9D647EEF6
+06:55:15 [Thread-6] INFO charlie.actor.Courier - received card = CQ values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:5810778F143A477D
+06:55:15 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:33E02BF9D647EEF6
+06:55:16 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:5810778F143A477D
+06:55:16 [Thread-6] INFO charlie.actor.Courier - received card = null values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:5810778F143A477D
+06:55:16 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@c2b111
+06:55:16 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:33E02BF9D647EEF6 amt = 10.0
+06:55:16 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 28
+06:55:16 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:55:16 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:55:16 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:55:16 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:55:18 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 28
+06:55:18 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:1F21D0E1D76B2F39
+06:55:18 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:29549F13C2184E7D
+06:55:19 [Thread-6] INFO charlie.actor.Courier - received card = D3 values = 3/3 hid = LAPTOP-CKJGDIFT:YOU:1F21D0E1D76B2F39
+06:55:20 [Thread-6] INFO charlie.actor.Courier - received card = D8 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:29549F13C2184E7D
+06:55:21 [Thread-6] INFO charlie.actor.Courier - received card = S4 values = 7/7 hid = LAPTOP-CKJGDIFT:YOU:1F21D0E1D76B2F39
+06:55:21 [Thread-6] INFO charlie.actor.Courier - received card = D5 values = 5/5 hid = LAPTOP-CKJGDIFT:DEALER:29549F13C2184E7D
+06:55:21 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:1F21D0E1D76B2F39
+06:55:22 [Thread-6] INFO charlie.actor.Courier - received card = SK values = 17/17 hid = LAPTOP-CKJGDIFT:YOU:1F21D0E1D76B2F39
+06:55:24 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:29549F13C2184E7D
+06:55:24 [Thread-6] INFO charlie.actor.Courier - received card = null values = 13/13 hid = LAPTOP-CKJGDIFT:DEALER:29549F13C2184E7D
+06:55:25 [Thread-6] INFO charlie.actor.Courier - received card = D7 values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:29549F13C2184E7D
+06:55:25 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@79d4e96b
+06:55:25 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:1F21D0E1D76B2F39 amt = 5.0
+06:55:25 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 22
+06:55:25 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:55:25 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:55:25 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:55:25 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:55:28 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 22
+06:55:28 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:4BAF342F5084AE8E
+06:55:28 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:1D51009892BEDB80
+06:55:29 [Thread-6] INFO charlie.actor.Courier - received card = C8 values = 8/8 hid = LAPTOP-CKJGDIFT:YOU:4BAF342F5084AE8E
+06:55:29 [Thread-6] INFO charlie.actor.Courier - received card = D9 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:1D51009892BEDB80
+06:55:30 [Thread-6] INFO charlie.actor.Courier - received card = S8 values = 16/16 hid = LAPTOP-CKJGDIFT:YOU:4BAF342F5084AE8E
+06:55:31 [Thread-6] INFO charlie.actor.Courier - received card = CK values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:1D51009892BEDB80
+06:55:31 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:4BAF342F5084AE8E
+06:55:32 [Thread-6] INFO charlie.actor.Courier - received card = DK values = 26/26 hid = LAPTOP-CKJGDIFT:YOU:4BAF342F5084AE8E
+06:55:32 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@47676465
+06:55:32 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:4BAF342F5084AE8E amt = 5.0
+06:55:32 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:1D51009892BEDB80
+06:55:32 [Thread-6] INFO charlie.actor.Courier - received card = null values = 19/19 hid = LAPTOP-CKJGDIFT:DEALER:1D51009892BEDB80
+06:55:32 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 17
+06:55:32 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:55:32 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:55:32 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:55:32 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:55:34 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 17
+06:55:34 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:634B3B1B027D57D9
+06:55:34 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:A00DCCBE95D33F0
+06:55:35 [Thread-6] INFO charlie.actor.Courier - received shuffle
+06:55:35 [Thread-6] INFO charlie.actor.Courier - received card = S2 values = 2/2 hid = LAPTOP-CKJGDIFT:YOU:634B3B1B027D57D9
+06:55:36 [Thread-6] INFO charlie.actor.Courier - received card = HQ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:A00DCCBE95D33F0
+06:55:37 [Thread-6] INFO charlie.actor.Courier - received card = S9 values = 11/11 hid = LAPTOP-CKJGDIFT:YOU:634B3B1B027D57D9
+06:55:38 [Thread-6] INFO charlie.actor.Courier - received card = DJ values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:A00DCCBE95D33F0
+06:55:38 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:634B3B1B027D57D9
+06:55:40 [Thread-6] INFO charlie.actor.Courier - received card = S3 values = 14/14 hid = LAPTOP-CKJGDIFT:YOU:634B3B1B027D57D9
+06:55:40 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:A00DCCBE95D33F0
+06:55:40 [Thread-6] INFO charlie.actor.Courier - received card = null values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:A00DCCBE95D33F0
+06:55:40 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@397192b3
+06:55:40 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:634B3B1B027D57D9 amt = 10.0
+06:55:40 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 52
+06:55:40 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:55:40 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:55:40 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:55:40 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:55:45 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+06:55:45 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:2F2037E468C5B9CD
+06:55:45 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:5CB553A62336F6CA
+06:55:46 [Thread-6] INFO charlie.actor.Courier - received card = S8 values = 8/8 hid = LAPTOP-CKJGDIFT:YOU:2F2037E468C5B9CD
+06:55:47 [Thread-6] INFO charlie.actor.Courier - received card = SK values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:5CB553A62336F6CA
+06:55:48 [Thread-6] INFO charlie.actor.Courier - received card = CJ values = 18/18 hid = LAPTOP-CKJGDIFT:YOU:2F2037E468C5B9CD
+06:55:49 [Thread-6] INFO charlie.actor.Courier - received card = C4 values = 4/4 hid = LAPTOP-CKJGDIFT:DEALER:5CB553A62336F6CA
+06:55:49 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:2F2037E468C5B9CD
+06:55:49 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:5CB553A62336F6CA
+06:55:49 [Thread-6] INFO charlie.actor.Courier - received card = null values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:5CB553A62336F6CA
+06:55:49 [Thread-6] INFO charlie.actor.Courier - received card = C6 values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:5CB553A62336F6CA
+06:55:49 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@3d267cc3
+06:55:49 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:2F2037E468C5B9CD amt = 5.0
+06:55:49 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 47
+06:55:49 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:55:49 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:55:49 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:55:49 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:55:52 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 47
+06:55:52 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:7D34A1CB0EDDD6A4
+06:55:52 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:51B7CF80B8047EBD
+06:55:53 [Thread-6] INFO charlie.actor.Courier - received card = CQ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:7D34A1CB0EDDD6A4
+06:55:54 [Thread-6] INFO charlie.actor.Courier - received card = C5 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:51B7CF80B8047EBD
+06:55:54 [Thread-6] INFO charlie.actor.Courier - received card = S9 values = 19/19 hid = LAPTOP-CKJGDIFT:YOU:7D34A1CB0EDDD6A4
+06:55:55 [Thread-6] INFO charlie.actor.Courier - received card = D5 values = 5/5 hid = LAPTOP-CKJGDIFT:DEALER:51B7CF80B8047EBD
+06:55:55 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:7D34A1CB0EDDD6A4
+06:55:56 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:51B7CF80B8047EBD
+06:55:56 [Thread-6] INFO charlie.actor.Courier - received card = null values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:51B7CF80B8047EBD
+06:55:56 [Thread-6] INFO charlie.actor.Courier - received card = H2 values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:51B7CF80B8047EBD
+06:55:57 [Thread-6] INFO charlie.actor.Courier - received card = C3 values = 15/15 hid = LAPTOP-CKJGDIFT:DEALER:51B7CF80B8047EBD
+06:55:57 [Thread-6] INFO charlie.actor.Courier - received card = SA values = 16/16 hid = LAPTOP-CKJGDIFT:DEALER:51B7CF80B8047EBD
+06:55:58 [Thread-6] INFO charlie.actor.Courier - received card = D6 values = 22/22 hid = LAPTOP-CKJGDIFT:DEALER:51B7CF80B8047EBD
+06:55:58 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@1ad6add8
+06:55:58 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:7D34A1CB0EDDD6A4 amt = 5.0
+06:55:58 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 39
+06:55:58 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:55:58 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:55:58 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:55:58 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:56:01 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 39
+06:56:01 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:E530A449E45CFBA
+06:56:01 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:7292A27D7B92746C
+06:56:02 [Thread-6] INFO charlie.actor.Courier - received card = D8 values = 8/8 hid = LAPTOP-CKJGDIFT:YOU:E530A449E45CFBA
+06:56:02 [Thread-6] INFO charlie.actor.Courier - received card = C8 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:7292A27D7B92746C
+06:56:03 [Thread-6] INFO charlie.actor.Courier - received card = CA values = 9/19 hid = LAPTOP-CKJGDIFT:YOU:E530A449E45CFBA
+06:56:04 [Thread-6] INFO charlie.actor.Courier - received card = H6 values = 6/6 hid = LAPTOP-CKJGDIFT:DEALER:7292A27D7B92746C
+06:56:04 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:E530A449E45CFBA
+06:56:05 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:7292A27D7B92746C
+06:56:05 [Thread-6] INFO charlie.actor.Courier - received card = null values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:7292A27D7B92746C
+06:56:06 [Thread-6] INFO charlie.actor.Courier - received card = S2 values = 16/16 hid = LAPTOP-CKJGDIFT:DEALER:7292A27D7B92746C
+06:56:06 [Thread-6] INFO charlie.actor.Courier - received card = H8 values = 24/24 hid = LAPTOP-CKJGDIFT:DEALER:7292A27D7B92746C
+06:56:06 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@555d2bf0
+06:56:06 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:E530A449E45CFBA amt = 20.0
+06:56:06 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 33
+06:56:06 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:56:06 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:56:06 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:56:06 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:56:09 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 33
+06:56:09 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:29D62A8C1AF9AE4C
+06:56:09 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:2DCBC39EAE570141
+06:56:10 [Thread-6] INFO charlie.actor.Courier - received card = HA values = 1/11 hid = LAPTOP-CKJGDIFT:YOU:29D62A8C1AF9AE4C
+06:56:11 [Thread-6] INFO charlie.actor.Courier - received card = H7 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:2DCBC39EAE570141
+06:56:11 [Thread-6] INFO charlie.actor.Courier - received card = DQ values = 11/21 hid = LAPTOP-CKJGDIFT:YOU:29D62A8C1AF9AE4C
+06:56:11 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Blackjack@69bd1288
+06:56:11 [Thread-6] INFO charlie.view.ATable - BJ for hid = LAPTOP-CKJGDIFT:YOU:29D62A8C1AF9AE4C amt = 37.5
+06:56:12 [Thread-6] INFO charlie.actor.Courier - received card = D3 values = 3/3 hid = LAPTOP-CKJGDIFT:DEALER:2DCBC39EAE570141
+06:56:12 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:2DCBC39EAE570141
+06:56:12 [Thread-6] INFO charlie.actor.Courier - received card = null values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:2DCBC39EAE570141
+06:56:12 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 29
+06:56:12 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:56:12 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:56:12 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:56:12 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:56:15 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 29
+06:56:15 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:6ADCE4C229DCA5
+06:56:15 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:3B6283F5B3E63F2
+06:56:16 [Thread-6] INFO charlie.actor.Courier - received card = C7 values = 7/7 hid = LAPTOP-CKJGDIFT:YOU:6ADCE4C229DCA5
+06:56:16 [Thread-6] INFO charlie.actor.Courier - received card = DK values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:3B6283F5B3E63F2
+06:56:17 [Thread-6] INFO charlie.actor.Courier - received card = S10 values = 17/17 hid = LAPTOP-CKJGDIFT:YOU:6ADCE4C229DCA5
+06:56:18 [Thread-6] INFO charlie.actor.Courier - received card = DA values = 1/11 hid = LAPTOP-CKJGDIFT:DEALER:3B6283F5B3E63F2
+06:56:18 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:3B6283F5B3E63F2
+06:56:18 [Thread-6] INFO charlie.actor.Courier - received card = null values = 11/21 hid = LAPTOP-CKJGDIFT:DEALER:3B6283F5B3E63F2
+06:56:18 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@2d32eb16
+06:56:18 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:6ADCE4C229DCA5 amt = 20.0
+06:56:18 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 25
+06:56:18 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:56:18 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:56:18 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:56:18 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:56:20 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 25
+06:56:20 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:48CAB7EF7C0A8575
+06:56:20 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:73E662457CC4F81C
+06:56:21 [Thread-6] INFO charlie.actor.Courier - received card = DJ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:48CAB7EF7C0A8575
+06:56:22 [Thread-6] INFO charlie.actor.Courier - received card = H9 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:73E662457CC4F81C
+06:56:23 [Thread-6] INFO charlie.actor.Courier - received card = C9 values = 19/19 hid = LAPTOP-CKJGDIFT:YOU:48CAB7EF7C0A8575
+06:56:24 [Thread-6] INFO charlie.actor.Courier - received card = HQ values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:73E662457CC4F81C
+06:56:24 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:48CAB7EF7C0A8575
+06:56:24 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:73E662457CC4F81C
+06:56:24 [Thread-6] INFO charlie.actor.Courier - received card = null values = 19/19 hid = LAPTOP-CKJGDIFT:DEALER:73E662457CC4F81C
+06:56:24 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Push@1b88da67
+06:56:24 [Thread-6] INFO charlie.view.ATable - PUSH for hid = LAPTOP-CKJGDIFT:YOU:48CAB7EF7C0A8575 amt = 5.0
+06:56:24 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 21
+06:56:24 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:56:24 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:56:24 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:56:24 [Thread-6] INFO charlie.view.ATable - push count = 1
+06:56:27 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 21
+06:56:27 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:3168E8194C012593
+06:56:27 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:447ACF8A0D0C0D69
+06:56:28 [Thread-6] INFO charlie.actor.Courier - received card = CK values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:3168E8194C012593
+06:56:29 [Thread-6] INFO charlie.actor.Courier - received card = D2 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:447ACF8A0D0C0D69
+06:56:29 [Thread-6] INFO charlie.actor.Courier - received card = HK values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:3168E8194C012593
+06:56:30 [Thread-6] INFO charlie.actor.Courier - received card = S3 values = 3/3 hid = LAPTOP-CKJGDIFT:DEALER:447ACF8A0D0C0D69
+06:56:30 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:3168E8194C012593
+06:56:31 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:447ACF8A0D0C0D69
+06:56:31 [Thread-6] INFO charlie.actor.Courier - received card = null values = 5/5 hid = LAPTOP-CKJGDIFT:DEALER:447ACF8A0D0C0D69
+06:56:31 [Thread-6] INFO charlie.actor.Courier - received card = S4 values = 9/9 hid = LAPTOP-CKJGDIFT:DEALER:447ACF8A0D0C0D69
+06:56:32 [Thread-6] INFO charlie.actor.Courier - received card = SJ values = 19/19 hid = LAPTOP-CKJGDIFT:DEALER:447ACF8A0D0C0D69
+06:56:32 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@6a63717c
+06:56:32 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:3168E8194C012593 amt = 5.0
+06:56:32 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 15
+06:56:32 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:56:32 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:56:32 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:56:32 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:56:35 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 15
+06:56:35 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:60697CE36410D8AD
+06:56:35 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:BA0604B106926DF
+06:56:36 [Thread-6] INFO charlie.actor.Courier - received card = HJ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:60697CE36410D8AD
+06:56:36 [Thread-6] INFO charlie.actor.Courier - received shuffle
+06:56:36 [Thread-6] INFO charlie.actor.Courier - received card = SQ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:BA0604B106926DF
+06:56:37 [Thread-6] INFO charlie.actor.Courier - received card = D4 values = 14/14 hid = LAPTOP-CKJGDIFT:YOU:60697CE36410D8AD
+06:56:38 [Thread-6] INFO charlie.actor.Courier - received card = H4 values = 4/4 hid = LAPTOP-CKJGDIFT:DEALER:BA0604B106926DF
+06:56:38 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:60697CE36410D8AD
+06:56:39 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:BA0604B106926DF
+06:56:39 [Thread-6] INFO charlie.actor.Courier - received card = null values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:BA0604B106926DF
+06:56:39 [Thread-6] INFO charlie.actor.Courier - received card = S7 values = 21/21 hid = LAPTOP-CKJGDIFT:DEALER:BA0604B106926DF
+06:56:39 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@1f481b6a
+06:56:39 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:60697CE36410D8AD amt = 5.0
+06:56:39 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 52
+06:56:39 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:56:39 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:56:39 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:56:39 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:56:45 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+06:56:45 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:45A661DC7B6BFAF0
+06:56:45 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:783F70252EA7EFC4
+06:56:46 [Thread-6] INFO charlie.actor.Courier - received card = S9 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:45A661DC7B6BFAF0
+06:56:46 [Thread-6] INFO charlie.actor.Courier - received card = C10 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:783F70252EA7EFC4
+06:56:47 [Thread-6] INFO charlie.actor.Courier - received card = S7 values = 16/16 hid = LAPTOP-CKJGDIFT:YOU:45A661DC7B6BFAF0
+06:56:48 [Thread-6] INFO charlie.actor.Courier - received card = HA values = 1/11 hid = LAPTOP-CKJGDIFT:DEALER:783F70252EA7EFC4
+06:56:48 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:783F70252EA7EFC4
+06:56:48 [Thread-6] INFO charlie.actor.Courier - received card = null values = 11/21 hid = LAPTOP-CKJGDIFT:DEALER:783F70252EA7EFC4
+06:56:48 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@3199d0ca
+06:56:48 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:45A661DC7B6BFAF0 amt = 5.0
+06:56:48 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 48
+06:56:48 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:56:48 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:56:48 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:56:48 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:56:50 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 48
+06:56:50 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:11E1AE2693F57719
+06:56:50 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:2C369985AA548C04
+06:56:51 [Thread-6] INFO charlie.actor.Courier - received card = D3 values = 3/3 hid = LAPTOP-CKJGDIFT:YOU:11E1AE2693F57719
+06:56:52 [Thread-6] INFO charlie.actor.Courier - received card = S10 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:2C369985AA548C04
+06:56:53 [Thread-6] INFO charlie.actor.Courier - received card = D6 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:11E1AE2693F57719
+06:56:54 [Thread-6] INFO charlie.actor.Courier - received card = C3 values = 3/3 hid = LAPTOP-CKJGDIFT:DEALER:2C369985AA548C04
+06:56:54 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:11E1AE2693F57719
+06:56:54 [Thread-6] INFO charlie.actor.Courier - received card = S4 values = 13/13 hid = LAPTOP-CKJGDIFT:YOU:11E1AE2693F57719
+06:56:54 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:2C369985AA548C04
+06:56:54 [Thread-6] INFO charlie.actor.Courier - received card = null values = 13/13 hid = LAPTOP-CKJGDIFT:DEALER:2C369985AA548C04
+06:56:55 [Thread-6] INFO charlie.actor.Courier - received card = D7 values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:2C369985AA548C04
+06:56:55 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@7d1b3883
+06:56:55 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:11E1AE2693F57719 amt = 10.0
+06:56:55 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 42
+06:56:55 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:56:55 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:56:55 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:56:55 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:56:58 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 42
+06:56:58 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:A90D220C6906C26
+06:56:58 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:29060138ED195BD9
+06:56:59 [Thread-6] INFO charlie.actor.Courier - received card = C9 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:A90D220C6906C26
+06:56:59 [Thread-6] INFO charlie.actor.Courier - received card = SJ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:29060138ED195BD9
+06:57:00 [Thread-6] INFO charlie.actor.Courier - received card = SA values = 10/20 hid = LAPTOP-CKJGDIFT:YOU:A90D220C6906C26
+06:57:01 [Thread-6] INFO charlie.actor.Courier - received card = H6 values = 6/6 hid = LAPTOP-CKJGDIFT:DEALER:29060138ED195BD9
+06:57:01 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:A90D220C6906C26
+06:57:03 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:29060138ED195BD9
+06:57:03 [Thread-6] INFO charlie.actor.Courier - received card = null values = 16/16 hid = LAPTOP-CKJGDIFT:DEALER:29060138ED195BD9
+06:57:04 [Thread-6] INFO charlie.actor.Courier - received card = C4 values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:29060138ED195BD9
+06:57:04 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Push@756101d5
+06:57:04 [Thread-6] INFO charlie.view.ATable - PUSH for hid = LAPTOP-CKJGDIFT:YOU:A90D220C6906C26 amt = 10.0
+06:57:04 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 37
+06:57:04 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:57:04 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:57:04 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:57:04 [Thread-6] INFO charlie.view.ATable - push count = 1
+06:57:06 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 37
+06:57:06 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:6B796164388381DF
+06:57:06 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:9A0E3B622B31FE2
+06:57:07 [Thread-6] INFO charlie.actor.Courier - received card = C8 values = 8/8 hid = LAPTOP-CKJGDIFT:YOU:6B796164388381DF
+06:57:08 [Thread-6] INFO charlie.actor.Courier - received card = CJ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:9A0E3B622B31FE2
+06:57:09 [Thread-6] INFO charlie.actor.Courier - received card = DA values = 9/19 hid = LAPTOP-CKJGDIFT:YOU:6B796164388381DF
+06:57:09 [Thread-6] INFO charlie.actor.Courier - received card = H10 values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:9A0E3B622B31FE2
+06:57:09 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:6B796164388381DF
+06:57:10 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:9A0E3B622B31FE2
+06:57:10 [Thread-6] INFO charlie.actor.Courier - received card = null values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:9A0E3B622B31FE2
+06:57:10 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@4932a49f
+06:57:10 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:6B796164388381DF amt = 10.0
+06:57:10 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 33
+06:57:10 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:57:10 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:57:10 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:57:10 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:57:13 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 33
+06:57:13 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:7BDBF7811D22F388
+06:57:13 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:34672943923A2964
+06:57:14 [Thread-6] INFO charlie.actor.Courier - received card = H5 values = 5/5 hid = LAPTOP-CKJGDIFT:YOU:7BDBF7811D22F388
+06:57:15 [Thread-6] INFO charlie.actor.Courier - received card = S5 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:34672943923A2964
+06:57:15 [Thread-6] INFO charlie.actor.Courier - received card = D10 values = 15/15 hid = LAPTOP-CKJGDIFT:YOU:7BDBF7811D22F388
+06:57:16 [Thread-6] INFO charlie.actor.Courier - received card = D5 values = 5/5 hid = LAPTOP-CKJGDIFT:DEALER:34672943923A2964
+06:57:16 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:7BDBF7811D22F388
+06:57:17 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:34672943923A2964
+06:57:17 [Thread-6] INFO charlie.actor.Courier - received card = null values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:34672943923A2964
+06:57:17 [Thread-6] INFO charlie.actor.Courier - received card = H2 values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:34672943923A2964
+06:57:18 [Thread-6] INFO charlie.actor.Courier - received card = D8 values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:34672943923A2964
+06:57:18 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@4dd05036
+06:57:18 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:7BDBF7811D22F388 amt = 5.0
+06:57:18 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 27
+06:57:18 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:57:18 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:57:18 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:57:18 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:57:20 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 27
+06:57:20 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:1B720DF077E2AB32
+06:57:20 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:1164E92F21975451
+06:57:21 [Thread-6] INFO charlie.actor.Courier - received card = S3 values = 3/3 hid = LAPTOP-CKJGDIFT:YOU:1B720DF077E2AB32
+06:57:22 [Thread-6] INFO charlie.actor.Courier - received card = DQ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:1164E92F21975451
+06:57:23 [Thread-6] INFO charlie.actor.Courier - received card = S6 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:1B720DF077E2AB32
+06:57:23 [Thread-6] INFO charlie.actor.Courier - received card = S8 values = 8/8 hid = LAPTOP-CKJGDIFT:DEALER:1164E92F21975451
+06:57:23 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:1B720DF077E2AB32
+06:57:24 [Thread-6] INFO charlie.actor.Courier - received card = D4 values = 13/13 hid = LAPTOP-CKJGDIFT:YOU:1B720DF077E2AB32
+06:57:26 [Thread-6] INFO charlie.actor.Courier - received card = H7 values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:1B720DF077E2AB32
+06:57:26 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:1164E92F21975451
+06:57:26 [Thread-6] INFO charlie.actor.Courier - received card = null values = 18/18 hid = LAPTOP-CKJGDIFT:DEALER:1164E92F21975451
+06:57:26 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@59e59cfe
+06:57:26 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:1B720DF077E2AB32 amt = 10.0
+06:57:26 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 21
+06:57:26 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:57:26 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:57:26 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:57:26 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:57:29 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 21
+06:57:29 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:28F0CD8C42C4E83B
+06:57:29 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:3F69A5EB8FCA898D
+06:57:30 [Thread-6] INFO charlie.actor.Courier - received card = H9 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:28F0CD8C42C4E83B
+06:57:30 [Thread-6] INFO charlie.actor.Courier - received card = CA values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:3F69A5EB8FCA898D
+06:57:31 [Thread-6] INFO charlie.actor.Courier - received card = HQ values = 19/19 hid = LAPTOP-CKJGDIFT:YOU:28F0CD8C42C4E83B
+06:57:31 [Thread-6] INFO charlie.actor.Courier - received shuffle
+06:57:32 [Thread-6] INFO charlie.actor.Courier - received card = S2 values = 2/2 hid = LAPTOP-CKJGDIFT:DEALER:3F69A5EB8FCA898D
+06:57:32 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:28F0CD8C42C4E83B
+06:57:34 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:3F69A5EB8FCA898D
+06:57:34 [Thread-6] INFO charlie.actor.Courier - received card = null values = 3/13 hid = LAPTOP-CKJGDIFT:DEALER:3F69A5EB8FCA898D
+06:57:35 [Thread-6] INFO charlie.actor.Courier - received card = SQ values = 13/23 hid = LAPTOP-CKJGDIFT:DEALER:3F69A5EB8FCA898D
+06:57:35 [Thread-6] INFO charlie.actor.Courier - received card = DK values = 23/33 hid = LAPTOP-CKJGDIFT:DEALER:3F69A5EB8FCA898D
+06:57:35 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@7dcd03e1
+06:57:35 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:28F0CD8C42C4E83B amt = 20.0
+06:57:35 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 52
+06:57:35 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:57:35 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:57:35 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:57:35 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:57:41 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+06:57:41 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:C39C97F9ECF9354
+06:57:41 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:77D96B178A0C4403
+06:57:42 [Thread-6] INFO charlie.actor.Courier - received card = C4 values = 4/4 hid = LAPTOP-CKJGDIFT:YOU:C39C97F9ECF9354
+06:57:43 [Thread-6] INFO charlie.actor.Courier - received card = D5 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:77D96B178A0C4403
+06:57:43 [Thread-6] INFO charlie.actor.Courier - received card = DQ values = 14/14 hid = LAPTOP-CKJGDIFT:YOU:C39C97F9ECF9354
+06:57:44 [Thread-6] INFO charlie.actor.Courier - received card = S3 values = 3/3 hid = LAPTOP-CKJGDIFT:DEALER:77D96B178A0C4403
+06:57:44 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:C39C97F9ECF9354
+06:57:45 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:77D96B178A0C4403
+06:57:45 [Thread-6] INFO charlie.actor.Courier - received card = null values = 8/8 hid = LAPTOP-CKJGDIFT:DEALER:77D96B178A0C4403
+06:57:45 [Thread-6] INFO charlie.actor.Courier - received card = S8 values = 16/16 hid = LAPTOP-CKJGDIFT:DEALER:77D96B178A0C4403
+06:57:46 [Thread-6] INFO charlie.actor.Courier - received card = S9 values = 25/25 hid = LAPTOP-CKJGDIFT:DEALER:77D96B178A0C4403
+06:57:46 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@18b7361
+06:57:46 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:C39C97F9ECF9354 amt = 5.0
+06:57:46 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 46
+06:57:46 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:57:46 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:57:46 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:57:46 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:57:49 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 46
+06:57:49 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:972DB14451F0857
+06:57:49 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:3704953136FAC4C9
+06:57:50 [Thread-6] INFO charlie.actor.Courier - received card = DJ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:972DB14451F0857
+06:57:50 [Thread-6] INFO charlie.actor.Courier - received card = H2 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:3704953136FAC4C9
+06:57:51 [Thread-6] INFO charlie.actor.Courier - received card = SK values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:972DB14451F0857
+06:57:52 [Thread-6] INFO charlie.actor.Courier - received card = D2 values = 2/2 hid = LAPTOP-CKJGDIFT:DEALER:3704953136FAC4C9
+06:57:52 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:972DB14451F0857
+06:57:53 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:3704953136FAC4C9
+06:57:53 [Thread-6] INFO charlie.actor.Courier - received card = null values = 4/4 hid = LAPTOP-CKJGDIFT:DEALER:3704953136FAC4C9
+06:57:53 [Thread-6] INFO charlie.actor.Courier - received card = H7 values = 11/11 hid = LAPTOP-CKJGDIFT:DEALER:3704953136FAC4C9
+06:57:54 [Thread-6] INFO charlie.actor.Courier - received card = C3 values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:3704953136FAC4C9
+06:57:55 [Thread-6] INFO charlie.actor.Courier - received card = S5 values = 19/19 hid = LAPTOP-CKJGDIFT:DEALER:3704953136FAC4C9
+06:57:55 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@18ff9d45
+06:57:55 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:972DB14451F0857 amt = 5.0
+06:57:55 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 39
+06:57:55 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:57:55 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:57:55 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:57:55 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:57:57 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 39
+06:57:57 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:138A1B356547095E
+06:57:57 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:6796EB715047CDD3
+06:57:58 [Thread-6] INFO charlie.actor.Courier - received card = C6 values = 6/6 hid = LAPTOP-CKJGDIFT:YOU:138A1B356547095E
+06:57:59 [Thread-6] INFO charlie.actor.Courier - received card = CK values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:6796EB715047CDD3
+06:58:00 [Thread-6] INFO charlie.actor.Courier - received card = H10 values = 16/16 hid = LAPTOP-CKJGDIFT:YOU:138A1B356547095E
+06:58:00 [Thread-6] INFO charlie.actor.Courier - received card = HQ values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:6796EB715047CDD3
+06:58:00 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:138A1B356547095E
+06:58:01 [Thread-6] INFO charlie.actor.Courier - received card = C10 values = 26/26 hid = LAPTOP-CKJGDIFT:YOU:138A1B356547095E
+06:58:01 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@4cfeab0c
+06:58:01 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:138A1B356547095E amt = 15.0
+06:58:01 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:6796EB715047CDD3
+06:58:01 [Thread-6] INFO charlie.actor.Courier - received card = null values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:6796EB715047CDD3
+06:58:01 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 34
+06:58:01 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:58:01 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:58:01 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:58:01 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:58:04 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 34
+06:58:04 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:330CEBA123BACFB6
+06:58:04 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:22982673B32EEA95
+06:58:05 [Thread-6] INFO charlie.actor.Courier - received card = D9 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:330CEBA123BACFB6
+06:58:06 [Thread-6] INFO charlie.actor.Courier - received card = DK values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:22982673B32EEA95
+06:58:07 [Thread-6] INFO charlie.actor.Courier - received card = H3 values = 12/12 hid = LAPTOP-CKJGDIFT:YOU:330CEBA123BACFB6
+06:58:07 [Thread-6] INFO charlie.actor.Courier - received card = DA values = 1/11 hid = LAPTOP-CKJGDIFT:DEALER:22982673B32EEA95
+06:58:07 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:22982673B32EEA95
+06:58:07 [Thread-6] INFO charlie.actor.Courier - received card = null values = 11/21 hid = LAPTOP-CKJGDIFT:DEALER:22982673B32EEA95
+06:58:07 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@71273fe2
+06:58:07 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:330CEBA123BACFB6 amt = 5.0
+06:58:07 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 30
+06:58:07 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:58:07 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:58:07 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:58:07 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:58:10 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 30
+06:58:10 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:504B7DE82E646118
+06:58:10 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:2D4079491D697837
+06:58:11 [Thread-6] INFO charlie.actor.Courier - received card = HJ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:504B7DE82E646118
+06:58:12 [Thread-6] INFO charlie.actor.Courier - received card = S7 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:2D4079491D697837
+06:58:12 [Thread-6] INFO charlie.actor.Courier - received card = H8 values = 18/18 hid = LAPTOP-CKJGDIFT:YOU:504B7DE82E646118
+06:58:13 [Thread-6] INFO charlie.actor.Courier - received card = D7 values = 7/7 hid = LAPTOP-CKJGDIFT:DEALER:2D4079491D697837
+06:58:13 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:504B7DE82E646118
+06:58:14 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:2D4079491D697837
+06:58:14 [Thread-6] INFO charlie.actor.Courier - received card = null values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:2D4079491D697837
+06:58:15 [Thread-6] INFO charlie.actor.Courier - received card = D3 values = 17/17 hid = LAPTOP-CKJGDIFT:DEALER:2D4079491D697837
+06:58:15 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@6185c6c6
+06:58:15 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:504B7DE82E646118 amt = 5.0
+06:58:15 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 25
+06:58:15 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:58:15 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:58:15 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:58:15 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:58:17 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 25
+06:58:17 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:3068E3C8539B2F50
+06:58:17 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:478F89A04896E140
+06:58:18 [Thread-6] INFO charlie.actor.Courier - received card = CQ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:3068E3C8539B2F50
+06:58:19 [Thread-6] INFO charlie.actor.Courier - received card = C7 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:478F89A04896E140
+06:58:20 [Thread-6] INFO charlie.actor.Courier - received card = C9 values = 19/19 hid = LAPTOP-CKJGDIFT:YOU:3068E3C8539B2F50
+06:58:21 [Thread-6] INFO charlie.actor.Courier - received card = S6 values = 6/6 hid = LAPTOP-CKJGDIFT:DEALER:478F89A04896E140
+06:58:21 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:3068E3C8539B2F50
+06:58:22 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:478F89A04896E140
+06:58:22 [Thread-6] INFO charlie.actor.Courier - received card = null values = 13/13 hid = LAPTOP-CKJGDIFT:DEALER:478F89A04896E140
+06:58:22 [Thread-6] INFO charlie.actor.Courier - received card = D4 values = 17/17 hid = LAPTOP-CKJGDIFT:DEALER:478F89A04896E140
+06:58:22 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@79e48e3f
+06:58:22 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:3068E3C8539B2F50 amt = 5.0
+06:58:22 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 20
+06:58:22 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:58:22 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:58:22 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:58:22 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:58:25 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 20
+06:58:25 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:32304887D7330902
+06:58:25 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:1FE79AC333833D31
+06:58:26 [Thread-6] INFO charlie.actor.Courier - received card = H4 values = 4/4 hid = LAPTOP-CKJGDIFT:YOU:32304887D7330902
+06:58:27 [Thread-6] INFO charlie.actor.Courier - received card = SJ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:1FE79AC333833D31
+06:58:27 [Thread-6] INFO charlie.actor.Courier - received card = C2 values = 6/6 hid = LAPTOP-CKJGDIFT:YOU:32304887D7330902
+06:58:28 [Thread-6] INFO charlie.actor.Courier - received card = CJ values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:1FE79AC333833D31
+06:58:28 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:32304887D7330902
+06:58:30 [Thread-6] INFO charlie.actor.Courier - received card = D6 values = 12/12 hid = LAPTOP-CKJGDIFT:YOU:32304887D7330902
+06:58:30 [Thread-6] INFO charlie.actor.Courier - received shuffle
+06:58:30 [Thread-6] INFO charlie.actor.Courier - received card = C5 values = 17/17 hid = LAPTOP-CKJGDIFT:YOU:32304887D7330902
+06:58:32 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:1FE79AC333833D31
+06:58:32 [Thread-6] INFO charlie.actor.Courier - received card = null values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:1FE79AC333833D31
+06:58:32 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@12028318
+06:58:32 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:32304887D7330902 amt = 5.0
+06:58:32 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 52
+06:58:32 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:58:32 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:58:32 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:58:32 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:58:38 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+06:58:38 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:69E775D8AF806C8
+06:58:38 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:2C65E09DD775EC28
+06:58:39 [Thread-6] INFO charlie.actor.Courier - received card = C9 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:69E775D8AF806C8
+06:58:39 [Thread-6] INFO charlie.actor.Courier - received card = D6 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:2C65E09DD775EC28
+06:58:40 [Thread-6] INFO charlie.actor.Courier - received card = CK values = 19/19 hid = LAPTOP-CKJGDIFT:YOU:69E775D8AF806C8
+06:58:41 [Thread-6] INFO charlie.actor.Courier - received card = S2 values = 2/2 hid = LAPTOP-CKJGDIFT:DEALER:2C65E09DD775EC28
+06:58:41 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:69E775D8AF806C8
+06:58:43 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:2C65E09DD775EC28
+06:58:43 [Thread-6] INFO charlie.actor.Courier - received card = null values = 8/8 hid = LAPTOP-CKJGDIFT:DEALER:2C65E09DD775EC28
+06:58:44 [Thread-6] INFO charlie.actor.Courier - received card = H3 values = 11/11 hid = LAPTOP-CKJGDIFT:DEALER:2C65E09DD775EC28
+06:58:44 [Thread-6] INFO charlie.actor.Courier - received card = HQ values = 21/21 hid = LAPTOP-CKJGDIFT:DEALER:2C65E09DD775EC28
+06:58:44 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@5e26bac8
+06:58:44 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:69E775D8AF806C8 amt = 5.0
+06:58:44 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 46
+06:58:44 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:58:44 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:58:44 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:58:44 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:58:47 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 46
+06:58:47 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:5F98ECFBBF43F7AA
+06:58:47 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:28D93C2BDDAA1160
+06:58:48 [Thread-6] INFO charlie.actor.Courier - received card = C6 values = 6/6 hid = LAPTOP-CKJGDIFT:YOU:5F98ECFBBF43F7AA
+06:58:49 [Thread-6] INFO charlie.actor.Courier - received card = H5 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:28D93C2BDDAA1160
+06:58:49 [Thread-6] INFO charlie.actor.Courier - received card = C4 values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:5F98ECFBBF43F7AA
+06:58:50 [Thread-6] INFO charlie.actor.Courier - received card = D7 values = 7/7 hid = LAPTOP-CKJGDIFT:DEALER:28D93C2BDDAA1160
+06:58:50 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:5F98ECFBBF43F7AA
+06:58:51 [Thread-6] INFO charlie.actor.Courier - received card = C8 values = 18/18 hid = LAPTOP-CKJGDIFT:YOU:5F98ECFBBF43F7AA
+06:58:51 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:28D93C2BDDAA1160
+06:58:51 [Thread-6] INFO charlie.actor.Courier - received card = null values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:28D93C2BDDAA1160
+06:58:52 [Thread-6] INFO charlie.actor.Courier - received card = SA values = 13/13 hid = LAPTOP-CKJGDIFT:DEALER:28D93C2BDDAA1160
+06:58:53 [Thread-6] INFO charlie.actor.Courier - received card = CQ values = 23/23 hid = LAPTOP-CKJGDIFT:DEALER:28D93C2BDDAA1160
+06:58:53 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@52f214f2
+06:58:53 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:5F98ECFBBF43F7AA amt = 20.0
+06:58:53 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 39
+06:58:53 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:58:53 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:58:53 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:58:53 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:58:55 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 39
+06:58:55 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:6D5E1A82CAAE8461
+06:58:55 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:7496AF1492E26019
+06:58:56 [Thread-6] INFO charlie.actor.Courier - received card = S7 values = 7/7 hid = LAPTOP-CKJGDIFT:YOU:6D5E1A82CAAE8461
+06:58:57 [Thread-6] INFO charlie.actor.Courier - received card = SK values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:7496AF1492E26019
+06:58:58 [Thread-6] INFO charlie.actor.Courier - received card = CA values = 8/18 hid = LAPTOP-CKJGDIFT:YOU:6D5E1A82CAAE8461
+06:58:58 [Thread-6] INFO charlie.actor.Courier - received card = H8 values = 8/8 hid = LAPTOP-CKJGDIFT:DEALER:7496AF1492E26019
+06:58:58 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:6D5E1A82CAAE8461
+06:58:59 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:7496AF1492E26019
+06:58:59 [Thread-6] INFO charlie.actor.Courier - received card = null values = 18/18 hid = LAPTOP-CKJGDIFT:DEALER:7496AF1492E26019
+06:58:59 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Push@733a475e
+06:58:59 [Thread-6] INFO charlie.view.ATable - PUSH for hid = LAPTOP-CKJGDIFT:YOU:6D5E1A82CAAE8461 amt = 15.0
+06:58:59 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 35
+06:58:59 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:58:59 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:58:59 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:58:59 [Thread-6] INFO charlie.view.ATable - push count = 1
+06:59:02 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 35
+06:59:02 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:1020037E9774B22
+06:59:02 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:22FBA5360DEDFA82
+06:59:03 [Thread-6] INFO charlie.actor.Courier - received card = SJ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:1020037E9774B22
+06:59:03 [Thread-6] INFO charlie.actor.Courier - received card = HJ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:22FBA5360DEDFA82
+06:59:04 [Thread-6] INFO charlie.actor.Courier - received card = D5 values = 15/15 hid = LAPTOP-CKJGDIFT:YOU:1020037E9774B22
+06:59:05 [Thread-6] INFO charlie.actor.Courier - received card = C2 values = 2/2 hid = LAPTOP-CKJGDIFT:DEALER:22FBA5360DEDFA82
+06:59:05 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:1020037E9774B22
+06:59:07 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:22FBA5360DEDFA82
+06:59:07 [Thread-6] INFO charlie.actor.Courier - received card = null values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:22FBA5360DEDFA82
+06:59:08 [Thread-6] INFO charlie.actor.Courier - received card = D10 values = 22/22 hid = LAPTOP-CKJGDIFT:DEALER:22FBA5360DEDFA82
+06:59:08 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@3fc9fc5c
+06:59:08 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:1020037E9774B22 amt = 5.0
+06:59:08 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 30
+06:59:08 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:59:08 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:59:08 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:59:08 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:59:10 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 30
+06:59:10 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:22D5B15CDD505205
+06:59:10 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:313162FFE72B82C4
+06:59:11 [Thread-6] INFO charlie.actor.Courier - received card = H2 values = 2/2 hid = LAPTOP-CKJGDIFT:YOU:22D5B15CDD505205
+06:59:12 [Thread-6] INFO charlie.actor.Courier - received card = H7 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:313162FFE72B82C4
+06:59:13 [Thread-6] INFO charlie.actor.Courier - received card = D2 values = 4/4 hid = LAPTOP-CKJGDIFT:YOU:22D5B15CDD505205
+06:59:13 [Thread-6] INFO charlie.actor.Courier - received card = C7 values = 7/7 hid = LAPTOP-CKJGDIFT:DEALER:313162FFE72B82C4
+06:59:13 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:22D5B15CDD505205
+06:59:14 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:313162FFE72B82C4
+06:59:14 [Thread-6] INFO charlie.actor.Courier - received card = null values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:313162FFE72B82C4
+06:59:14 [Thread-6] INFO charlie.actor.Courier - received card = S8 values = 22/22 hid = LAPTOP-CKJGDIFT:DEALER:313162FFE72B82C4
+06:59:14 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@1428c84d
+06:59:14 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:22D5B15CDD505205 amt = 5.0
+06:59:14 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 25
+06:59:14 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:59:14 [Thread-6] INFO charlie.view.ATable - winner count = 1
+06:59:14 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:59:14 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:59:17 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 25
+06:59:17 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:33E01170ACF2C13E
+06:59:17 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:422438008401A617
+06:59:18 [Thread-6] INFO charlie.actor.Courier - received card = DK values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:33E01170ACF2C13E
+06:59:18 [Thread-6] INFO charlie.actor.Courier - received card = D9 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:422438008401A617
+06:59:19 [Thread-6] INFO charlie.actor.Courier - received card = S3 values = 13/13 hid = LAPTOP-CKJGDIFT:YOU:33E01170ACF2C13E
+06:59:20 [Thread-6] INFO charlie.actor.Courier - received card = DA values = 1/11 hid = LAPTOP-CKJGDIFT:DEALER:422438008401A617
+06:59:20 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:33E01170ACF2C13E
+06:59:21 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:422438008401A617
+06:59:21 [Thread-6] INFO charlie.actor.Courier - received card = null values = 10/20 hid = LAPTOP-CKJGDIFT:DEALER:422438008401A617
+06:59:21 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@178838d5
+06:59:21 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:33E01170ACF2C13E amt = 10.0
+06:59:21 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 21
+06:59:21 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:59:21 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:59:21 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:59:21 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:59:23 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 21
+06:59:23 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:6847FD409536B02E
+06:59:23 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:5CEE56E1FF8F5CD
+06:59:24 [Thread-6] INFO charlie.actor.Courier - received card = SQ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:6847FD409536B02E
+06:59:25 [Thread-6] INFO charlie.actor.Courier - received card = H10 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:5CEE56E1FF8F5CD
+06:59:26 [Thread-6] INFO charlie.actor.Courier - received card = S5 values = 15/15 hid = LAPTOP-CKJGDIFT:YOU:6847FD409536B02E
+06:59:26 [Thread-6] INFO charlie.actor.Courier - received shuffle
+06:59:26 [Thread-6] INFO charlie.actor.Courier - received card = H9 values = 9/9 hid = LAPTOP-CKJGDIFT:DEALER:5CEE56E1FF8F5CD
+06:59:26 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:6847FD409536B02E
+06:59:27 [Thread-6] INFO charlie.actor.Courier - received card = DJ values = 25/25 hid = LAPTOP-CKJGDIFT:YOU:6847FD409536B02E
+06:59:27 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@6d646e1f
+06:59:27 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:6847FD409536B02E amt = 5.0
+06:59:28 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:5CEE56E1FF8F5CD
+06:59:28 [Thread-6] INFO charlie.actor.Courier - received card = null values = 19/19 hid = LAPTOP-CKJGDIFT:DEALER:5CEE56E1FF8F5CD
+06:59:28 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 52
+06:59:28 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:59:28 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:59:28 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:59:28 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:59:33 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+06:59:33 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:57318AA13C7EA990
+06:59:33 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:5BB3CBEB52820573
+06:59:34 [Thread-6] INFO charlie.actor.Courier - received card = D2 values = 2/2 hid = LAPTOP-CKJGDIFT:YOU:57318AA13C7EA990
+06:59:35 [Thread-6] INFO charlie.actor.Courier - received card = S8 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:5BB3CBEB52820573
+06:59:36 [Thread-6] INFO charlie.actor.Courier - received card = SA values = 3/13 hid = LAPTOP-CKJGDIFT:YOU:57318AA13C7EA990
+06:59:37 [Thread-6] INFO charlie.actor.Courier - received card = HQ values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:5BB3CBEB52820573
+06:59:37 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:57318AA13C7EA990
+06:59:38 [Thread-6] INFO charlie.actor.Courier - received card = D3 values = 6/16 hid = LAPTOP-CKJGDIFT:YOU:57318AA13C7EA990
+06:59:40 [Thread-6] INFO charlie.actor.Courier - received card = HK values = 16/26 hid = LAPTOP-CKJGDIFT:YOU:57318AA13C7EA990
+06:59:40 [Thread-6] INFO charlie.actor.Courier - received card = C7 values = 23/33 hid = LAPTOP-CKJGDIFT:YOU:57318AA13C7EA990
+06:59:40 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@3752dd49
+06:59:40 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:57318AA13C7EA990 amt = 5.0
+06:59:40 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:5BB3CBEB52820573
+06:59:40 [Thread-6] INFO charlie.actor.Courier - received card = null values = 18/18 hid = LAPTOP-CKJGDIFT:DEALER:5BB3CBEB52820573
+06:59:40 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 45
+06:59:40 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:59:40 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:59:40 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:59:40 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:59:43 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 45
+06:59:43 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:28B9CF2531E5FAD6
+06:59:43 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:736183F1CEA6D1B7
+06:59:43 [Thread-6] INFO charlie.actor.Courier - received card = SQ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:28B9CF2531E5FAD6
+06:59:44 [Thread-6] INFO charlie.actor.Courier - received card = S10 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:736183F1CEA6D1B7
+06:59:45 [Thread-6] INFO charlie.actor.Courier - received card = SK values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:28B9CF2531E5FAD6
+06:59:46 [Thread-6] INFO charlie.actor.Courier - received card = CK values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:736183F1CEA6D1B7
+06:59:46 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:28B9CF2531E5FAD6
+06:59:48 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:736183F1CEA6D1B7
+06:59:48 [Thread-6] INFO charlie.actor.Courier - received card = null values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:736183F1CEA6D1B7
+06:59:48 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Push@37520f14
+06:59:48 [Thread-6] INFO charlie.view.ATable - PUSH for hid = LAPTOP-CKJGDIFT:YOU:28B9CF2531E5FAD6 amt = 5.0
+06:59:48 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 41
+06:59:48 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:59:48 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:59:48 [Thread-6] INFO charlie.view.ATable - looser count = 0
+06:59:48 [Thread-6] INFO charlie.view.ATable - push count = 1
+06:59:50 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 41
+06:59:50 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:31A8F0F6D099062F
+06:59:50 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:38913D4133285FC5
+06:59:51 [Thread-6] INFO charlie.actor.Courier - received card = S3 values = 3/3 hid = LAPTOP-CKJGDIFT:YOU:31A8F0F6D099062F
+06:59:52 [Thread-6] INFO charlie.actor.Courier - received card = H5 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:38913D4133285FC5
+06:59:53 [Thread-6] INFO charlie.actor.Courier - received card = D7 values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:31A8F0F6D099062F
+06:59:53 [Thread-6] INFO charlie.actor.Courier - received card = CQ values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:38913D4133285FC5
+06:59:53 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:31A8F0F6D099062F
+06:59:55 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:38913D4133285FC5
+06:59:55 [Thread-6] INFO charlie.actor.Courier - received card = null values = 15/15 hid = LAPTOP-CKJGDIFT:DEALER:38913D4133285FC5
+06:59:56 [Thread-6] INFO charlie.actor.Courier - received card = S2 values = 17/17 hid = LAPTOP-CKJGDIFT:DEALER:38913D4133285FC5
+06:59:56 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@68021a74
+06:59:56 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:31A8F0F6D099062F amt = 5.0
+06:59:56 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 36
+06:59:56 [Thread-6] INFO charlie.view.ATable - num hands = 2
+06:59:56 [Thread-6] INFO charlie.view.ATable - winner count = 0
+06:59:56 [Thread-6] INFO charlie.view.ATable - looser count = 1
+06:59:56 [Thread-6] INFO charlie.view.ATable - push count = 0
+06:59:59 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 36
+06:59:59 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:3FB6F2362A3CBDDC
+06:59:59 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:6EFA044AF83EB795
+07:00:00 [Thread-6] INFO charlie.actor.Courier - received card = DJ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:3FB6F2362A3CBDDC
+07:00:00 [Thread-6] INFO charlie.actor.Courier - received card = S6 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:6EFA044AF83EB795
+07:00:01 [Thread-6] INFO charlie.actor.Courier - received card = CJ values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:3FB6F2362A3CBDDC
+07:00:02 [Thread-6] INFO charlie.actor.Courier - received card = C4 values = 4/4 hid = LAPTOP-CKJGDIFT:DEALER:6EFA044AF83EB795
+07:00:02 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:3FB6F2362A3CBDDC
+07:00:04 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:6EFA044AF83EB795
+07:00:04 [Thread-6] INFO charlie.actor.Courier - received card = null values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:6EFA044AF83EB795
+07:00:05 [Thread-6] INFO charlie.actor.Courier - received card = C10 values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:6EFA044AF83EB795
+07:00:05 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Push@792228b7
+07:00:05 [Thread-6] INFO charlie.view.ATable - PUSH for hid = LAPTOP-CKJGDIFT:YOU:3FB6F2362A3CBDDC amt = 5.0
+07:00:05 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 31
+07:00:05 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:00:05 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:00:05 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:00:05 [Thread-6] INFO charlie.view.ATable - push count = 1
+07:00:07 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 31
+07:00:07 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:473AB0881C5040F
+07:00:07 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:29CEF15BC6DDF39C
+07:00:08 [Thread-6] INFO charlie.actor.Courier - received card = D9 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:473AB0881C5040F
+07:00:09 [Thread-6] INFO charlie.actor.Courier - received card = H10 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:29CEF15BC6DDF39C
+07:00:10 [Thread-6] INFO charlie.actor.Courier - received card = HJ values = 19/19 hid = LAPTOP-CKJGDIFT:YOU:473AB0881C5040F
+07:00:11 [Thread-6] INFO charlie.actor.Courier - received card = CA values = 1/11 hid = LAPTOP-CKJGDIFT:DEALER:29CEF15BC6DDF39C
+07:00:11 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:29CEF15BC6DDF39C
+07:00:11 [Thread-6] INFO charlie.actor.Courier - received card = null values = 11/21 hid = LAPTOP-CKJGDIFT:DEALER:29CEF15BC6DDF39C
+07:00:11 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@663fec4d
+07:00:11 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:473AB0881C5040F amt = 5.0
+07:00:11 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 27
+07:00:11 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:00:11 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:00:11 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:00:11 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:00:13 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 27
+07:00:13 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:71ED1ECA79BF0E22
+07:00:13 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:50C42696BEDFAAB9
+07:00:14 [Thread-6] INFO charlie.actor.Courier - received card = SJ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:71ED1ECA79BF0E22
+07:00:15 [Thread-6] INFO charlie.actor.Courier - received card = D5 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:50C42696BEDFAAB9
+07:00:16 [Thread-6] INFO charlie.actor.Courier - received card = H6 values = 16/16 hid = LAPTOP-CKJGDIFT:YOU:71ED1ECA79BF0E22
+07:00:16 [Thread-6] INFO charlie.actor.Courier - received card = D6 values = 6/6 hid = LAPTOP-CKJGDIFT:DEALER:50C42696BEDFAAB9
+07:00:16 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:71ED1ECA79BF0E22
+07:00:17 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:50C42696BEDFAAB9
+07:00:17 [Thread-6] INFO charlie.actor.Courier - received card = null values = 11/11 hid = LAPTOP-CKJGDIFT:DEALER:50C42696BEDFAAB9
+07:00:18 [Thread-6] INFO charlie.actor.Courier - received card = D10 values = 21/21 hid = LAPTOP-CKJGDIFT:DEALER:50C42696BEDFAAB9
+07:00:18 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@7117175d
+07:00:18 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:71ED1ECA79BF0E22 amt = 5.0
+07:00:18 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 22
+07:00:18 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:00:18 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:00:18 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:00:18 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:00:20 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 22
+07:00:20 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:1D0D2FEE8EBCD108
+07:00:20 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:4CDE2847291949E
+07:00:21 [Thread-6] INFO charlie.actor.Courier - received card = D4 values = 4/4 hid = LAPTOP-CKJGDIFT:YOU:1D0D2FEE8EBCD108
+07:00:22 [Thread-6] INFO charlie.actor.Courier - received card = HA values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:4CDE2847291949E
+07:00:23 [Thread-6] INFO charlie.actor.Courier - received card = S5 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:1D0D2FEE8EBCD108
+07:00:23 [Thread-6] INFO charlie.actor.Courier - received card = H4 values = 4/4 hid = LAPTOP-CKJGDIFT:DEALER:4CDE2847291949E
+07:00:23 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:1D0D2FEE8EBCD108
+07:00:24 [Thread-6] INFO charlie.actor.Courier - received card = S7 values = 16/16 hid = LAPTOP-CKJGDIFT:YOU:1D0D2FEE8EBCD108
+07:00:24 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:4CDE2847291949E
+07:00:24 [Thread-6] INFO charlie.actor.Courier - received card = null values = 5/15 hid = LAPTOP-CKJGDIFT:DEALER:4CDE2847291949E
+07:00:24 [Thread-6] INFO charlie.actor.Courier - received shuffle
+07:00:25 [Thread-6] INFO charlie.actor.Courier - received card = C9 values = 14/24 hid = LAPTOP-CKJGDIFT:DEALER:4CDE2847291949E
+07:00:25 [Thread-6] INFO charlie.actor.Courier - received card = D8 values = 22/32 hid = LAPTOP-CKJGDIFT:DEALER:4CDE2847291949E
+07:00:25 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@27942376
+07:00:25 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:1D0D2FEE8EBCD108 amt = 10.0
+07:00:25 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 52
+07:00:25 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:00:25 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:00:25 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:00:25 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:00:31 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+07:00:31 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:556C94046A3C349F
+07:00:31 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:7ED87F9BD23E282A
+07:00:32 [Thread-6] INFO charlie.actor.Courier - received card = H10 values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:556C94046A3C349F
+07:00:33 [Thread-6] INFO charlie.actor.Courier - received card = S2 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:7ED87F9BD23E282A
+07:00:33 [Thread-6] INFO charlie.actor.Courier - received card = D10 values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:556C94046A3C349F
+07:00:34 [Thread-6] INFO charlie.actor.Courier - received card = C8 values = 8/8 hid = LAPTOP-CKJGDIFT:DEALER:7ED87F9BD23E282A
+07:00:34 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:556C94046A3C349F
+07:00:35 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:7ED87F9BD23E282A
+07:00:35 [Thread-6] INFO charlie.actor.Courier - received card = null values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:7ED87F9BD23E282A
+07:00:35 [Thread-6] INFO charlie.actor.Courier - received card = S6 values = 16/16 hid = LAPTOP-CKJGDIFT:DEALER:7ED87F9BD23E282A
+07:00:36 [Thread-6] INFO charlie.actor.Courier - received card = S10 values = 26/26 hid = LAPTOP-CKJGDIFT:DEALER:7ED87F9BD23E282A
+07:00:36 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@1f6850b
+07:00:36 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:556C94046A3C349F amt = 5.0
+07:00:36 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 46
+07:00:36 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:00:36 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:00:36 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:00:36 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:00:38 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 46
+07:00:38 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:16E2E3C48E764031
+07:00:38 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:638D905E30BCA641
+07:00:39 [Thread-6] INFO charlie.actor.Courier - received card = DK values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:16E2E3C48E764031
+07:00:40 [Thread-6] INFO charlie.actor.Courier - received card = D2 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:638D905E30BCA641
+07:00:41 [Thread-6] INFO charlie.actor.Courier - received card = HA values = 11/21 hid = LAPTOP-CKJGDIFT:YOU:16E2E3C48E764031
+07:00:41 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Blackjack@285a1323
+07:00:41 [Thread-6] INFO charlie.view.ATable - BJ for hid = LAPTOP-CKJGDIFT:YOU:16E2E3C48E764031 amt = 7.5
+07:00:41 [Thread-6] INFO charlie.actor.Courier - received card = C5 values = 5/5 hid = LAPTOP-CKJGDIFT:DEALER:638D905E30BCA641
+07:00:41 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:638D905E30BCA641
+07:00:41 [Thread-6] INFO charlie.actor.Courier - received card = null values = 7/7 hid = LAPTOP-CKJGDIFT:DEALER:638D905E30BCA641
+07:00:41 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 42
+07:00:41 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:00:41 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:00:41 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:00:41 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:00:44 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 42
+07:00:44 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:2A07EC3FF1302B2
+07:00:44 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:4E73B58800061008
+07:00:45 [Thread-6] INFO charlie.actor.Courier - received card = H2 values = 2/2 hid = LAPTOP-CKJGDIFT:YOU:2A07EC3FF1302B2
+07:00:46 [Thread-6] INFO charlie.actor.Courier - received card = DA values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:4E73B58800061008
+07:00:46 [Thread-6] INFO charlie.actor.Courier - received card = H3 values = 5/5 hid = LAPTOP-CKJGDIFT:YOU:2A07EC3FF1302B2
+07:00:47 [Thread-6] INFO charlie.actor.Courier - received card = C2 values = 2/2 hid = LAPTOP-CKJGDIFT:DEALER:4E73B58800061008
+07:00:47 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:2A07EC3FF1302B2
+07:00:49 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:4E73B58800061008
+07:00:49 [Thread-6] INFO charlie.actor.Courier - received card = null values = 3/13 hid = LAPTOP-CKJGDIFT:DEALER:4E73B58800061008
+07:00:50 [Thread-6] INFO charlie.actor.Courier - received card = H6 values = 9/19 hid = LAPTOP-CKJGDIFT:DEALER:4E73B58800061008
+07:00:50 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@21dc3e1a
+07:00:50 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:2A07EC3FF1302B2 amt = 5.0
+07:00:50 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 37
+07:00:50 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:00:50 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:00:50 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:00:50 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:00:52 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 37
+07:00:52 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:1B77E5E13DB8D667
+07:00:52 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:6C28D1B4A42B22E6
+07:00:53 [Thread-6] INFO charlie.actor.Courier - received card = S3 values = 3/3 hid = LAPTOP-CKJGDIFT:YOU:1B77E5E13DB8D667
+07:00:54 [Thread-6] INFO charlie.actor.Courier - received card = D8 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:6C28D1B4A42B22E6
+07:00:55 [Thread-6] INFO charlie.actor.Courier - received card = DQ values = 13/13 hid = LAPTOP-CKJGDIFT:YOU:1B77E5E13DB8D667
+07:00:56 [Thread-6] INFO charlie.actor.Courier - received card = C6 values = 6/6 hid = LAPTOP-CKJGDIFT:DEALER:6C28D1B4A42B22E6
+07:00:56 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:1B77E5E13DB8D667
+07:00:56 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:6C28D1B4A42B22E6
+07:00:56 [Thread-6] INFO charlie.actor.Courier - received card = null values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:6C28D1B4A42B22E6
+07:00:57 [Thread-6] INFO charlie.actor.Courier - received card = C4 values = 18/18 hid = LAPTOP-CKJGDIFT:DEALER:6C28D1B4A42B22E6
+07:00:57 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@6e773b08
+07:00:57 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:1B77E5E13DB8D667 amt = 15.0
+07:00:57 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 32
+07:00:57 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:00:57 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:00:57 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:00:57 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:00:59 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 32
+07:00:59 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:58C4496F39512FD
+07:00:59 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:19D237CF85C50D1F
+07:01:00 [Thread-6] INFO charlie.actor.Courier - received card = H7 values = 7/7 hid = LAPTOP-CKJGDIFT:YOU:58C4496F39512FD
+07:01:01 [Thread-6] INFO charlie.actor.Courier - received card = CQ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:19D237CF85C50D1F
+07:01:02 [Thread-6] INFO charlie.actor.Courier - received card = D5 values = 12/12 hid = LAPTOP-CKJGDIFT:YOU:58C4496F39512FD
+07:01:03 [Thread-6] INFO charlie.actor.Courier - received card = C9 values = 9/9 hid = LAPTOP-CKJGDIFT:DEALER:19D237CF85C50D1F
+07:01:03 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:58C4496F39512FD
+07:01:05 [Thread-6] INFO charlie.actor.Courier - received card = CK values = 22/22 hid = LAPTOP-CKJGDIFT:YOU:58C4496F39512FD
+07:01:05 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@1bc02a76
+07:01:05 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:58C4496F39512FD amt = 25.0
+07:01:05 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:19D237CF85C50D1F
+07:01:05 [Thread-6] INFO charlie.actor.Courier - received card = null values = 19/19 hid = LAPTOP-CKJGDIFT:DEALER:19D237CF85C50D1F
+07:01:05 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 27
+07:01:05 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:01:05 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:01:05 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:01:05 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:01:08 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 27
+07:01:08 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:72498F1E3741F8DA
+07:01:08 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:518F42D0B6745800
+07:01:09 [Thread-6] INFO charlie.actor.Courier - received card = D9 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:72498F1E3741F8DA
+07:01:09 [Thread-6] INFO charlie.actor.Courier - received card = S7 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:518F42D0B6745800
+07:01:10 [Thread-6] INFO charlie.actor.Courier - received card = D6 values = 15/15 hid = LAPTOP-CKJGDIFT:YOU:72498F1E3741F8DA
+07:01:11 [Thread-6] INFO charlie.actor.Courier - received card = D4 values = 4/4 hid = LAPTOP-CKJGDIFT:DEALER:518F42D0B6745800
+07:01:11 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:72498F1E3741F8DA
+07:01:12 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:518F42D0B6745800
+07:01:12 [Thread-6] INFO charlie.actor.Courier - received card = null values = 11/11 hid = LAPTOP-CKJGDIFT:DEALER:518F42D0B6745800
+07:01:13 [Thread-6] INFO charlie.actor.Courier - received card = HQ values = 21/21 hid = LAPTOP-CKJGDIFT:DEALER:518F42D0B6745800
+07:01:13 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@18c9d9b8
+07:01:13 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:72498F1E3741F8DA amt = 20.0
+07:01:13 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 22
+07:01:13 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:01:13 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:01:13 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:01:13 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:01:15 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 22
+07:01:15 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:448E8337101FA30
+07:01:15 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:5144920019576E3D
+07:01:16 [Thread-6] INFO charlie.actor.Courier - received card = C10 values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:448E8337101FA30
+07:01:17 [Thread-6] INFO charlie.actor.Courier - received card = CJ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:5144920019576E3D
+07:01:18 [Thread-6] INFO charlie.actor.Courier - received card = D3 values = 13/13 hid = LAPTOP-CKJGDIFT:YOU:448E8337101FA30
+07:01:18 [Thread-6] INFO charlie.actor.Courier - received card = HJ values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:5144920019576E3D
+07:01:18 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:448E8337101FA30
+07:01:19 [Thread-6] INFO charlie.actor.Courier - received shuffle
+07:01:19 [Thread-6] INFO charlie.actor.Courier - received card = H9 values = 22/22 hid = LAPTOP-CKJGDIFT:YOU:448E8337101FA30
+07:01:19 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@26ae5ce
+07:01:19 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:448E8337101FA30 amt = 25.0
+07:01:20 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:5144920019576E3D
+07:01:20 [Thread-6] INFO charlie.actor.Courier - received card = null values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:5144920019576E3D
+07:01:20 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 52
+07:01:20 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:01:20 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:01:20 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:01:20 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:01:25 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+07:01:25 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:2494195FC23DD46B
+07:01:25 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:29613339DEBC2BA8
+07:01:26 [Thread-6] INFO charlie.actor.Courier - received card = SK values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:2494195FC23DD46B
+07:01:27 [Thread-6] INFO charlie.actor.Courier - received card = HQ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:29613339DEBC2BA8
+07:01:28 [Thread-6] INFO charlie.actor.Courier - received card = DQ values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:2494195FC23DD46B
+07:01:29 [Thread-6] INFO charlie.actor.Courier - received card = C7 values = 7/7 hid = LAPTOP-CKJGDIFT:DEALER:29613339DEBC2BA8
+07:01:29 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:2494195FC23DD46B
+07:01:30 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:29613339DEBC2BA8
+07:01:30 [Thread-6] INFO charlie.actor.Courier - received card = null values = 17/17 hid = LAPTOP-CKJGDIFT:DEALER:29613339DEBC2BA8
+07:01:30 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@793a47ff
+07:01:30 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:2494195FC23DD46B amt = 5.0
+07:01:30 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 48
+07:01:30 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:01:30 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:01:30 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:01:30 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:01:32 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 48
+07:01:32 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:6635FACBB81EA1E5
+07:01:32 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:3AF63E7F143C9452
+07:01:33 [Thread-6] INFO charlie.actor.Courier - received card = D9 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:6635FACBB81EA1E5
+07:01:34 [Thread-6] INFO charlie.actor.Courier - received card = D2 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:3AF63E7F143C9452
+07:01:35 [Thread-6] INFO charlie.actor.Courier - received card = D10 values = 19/19 hid = LAPTOP-CKJGDIFT:YOU:6635FACBB81EA1E5
+07:01:35 [Thread-6] INFO charlie.actor.Courier - received card = D8 values = 8/8 hid = LAPTOP-CKJGDIFT:DEALER:3AF63E7F143C9452
+07:01:35 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:6635FACBB81EA1E5
+07:01:37 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:3AF63E7F143C9452
+07:01:37 [Thread-6] INFO charlie.actor.Courier - received card = null values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:3AF63E7F143C9452
+07:01:38 [Thread-6] INFO charlie.actor.Courier - received card = S2 values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:3AF63E7F143C9452
+07:01:38 [Thread-6] INFO charlie.actor.Courier - received card = HA values = 13/13 hid = LAPTOP-CKJGDIFT:DEALER:3AF63E7F143C9452
+07:01:39 [Thread-6] INFO charlie.actor.Courier - received card = CJ values = 23/23 hid = LAPTOP-CKJGDIFT:DEALER:3AF63E7F143C9452
+07:01:39 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@2e2bfa99
+07:01:39 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:6635FACBB81EA1E5 amt = 5.0
+07:01:39 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 41
+07:01:39 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:01:39 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:01:39 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:01:39 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:01:42 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 41
+07:01:42 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:3A8AF03C51DFEDFB
+07:01:42 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:5AB481F338B2CA26
+07:01:43 [Thread-6] INFO charlie.actor.Courier - received card = S7 values = 7/7 hid = LAPTOP-CKJGDIFT:YOU:3A8AF03C51DFEDFB
+07:01:43 [Thread-6] INFO charlie.actor.Courier - received card = C9 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:5AB481F338B2CA26
+07:01:44 [Thread-6] INFO charlie.actor.Courier - received card = S3 values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:3A8AF03C51DFEDFB
+07:01:45 [Thread-6] INFO charlie.actor.Courier - received card = H2 values = 2/2 hid = LAPTOP-CKJGDIFT:DEALER:5AB481F338B2CA26
+07:01:45 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:3A8AF03C51DFEDFB
+07:01:46 [Thread-6] INFO charlie.actor.Courier - received card = H8 values = 18/18 hid = LAPTOP-CKJGDIFT:YOU:3A8AF03C51DFEDFB
+07:01:46 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:5AB481F338B2CA26
+07:01:46 [Thread-6] INFO charlie.actor.Courier - received card = null values = 11/11 hid = LAPTOP-CKJGDIFT:DEALER:5AB481F338B2CA26
+07:01:47 [Thread-6] INFO charlie.actor.Courier - received card = CQ values = 21/21 hid = LAPTOP-CKJGDIFT:DEALER:5AB481F338B2CA26
+07:01:47 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@786e9977
+07:01:47 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:3A8AF03C51DFEDFB amt = 10.0
+07:01:47 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 35
+07:01:47 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:01:47 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:01:47 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:01:47 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:01:49 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 35
+07:01:49 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:733ABF15C79B1EF4
+07:01:49 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:192DB5001048E5E7
+07:01:50 [Thread-6] INFO charlie.actor.Courier - received card = H7 values = 7/7 hid = LAPTOP-CKJGDIFT:YOU:733ABF15C79B1EF4
+07:01:51 [Thread-6] INFO charlie.actor.Courier - received card = C8 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:192DB5001048E5E7
+07:01:52 [Thread-6] INFO charlie.actor.Courier - received card = C5 values = 12/12 hid = LAPTOP-CKJGDIFT:YOU:733ABF15C79B1EF4
+07:01:52 [Thread-6] INFO charlie.actor.Courier - received card = H9 values = 9/9 hid = LAPTOP-CKJGDIFT:DEALER:192DB5001048E5E7
+07:01:52 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:733ABF15C79B1EF4
+07:01:53 [Thread-6] INFO charlie.actor.Courier - received card = HK values = 22/22 hid = LAPTOP-CKJGDIFT:YOU:733ABF15C79B1EF4
+07:01:53 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@56798d89
+07:01:53 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:733ABF15C79B1EF4 amt = 5.0
+07:01:54 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:192DB5001048E5E7
+07:01:54 [Thread-6] INFO charlie.actor.Courier - received card = null values = 17/17 hid = LAPTOP-CKJGDIFT:DEALER:192DB5001048E5E7
+07:01:54 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 30
+07:01:54 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:01:54 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:01:54 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:01:54 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:01:56 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 30
+07:01:56 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:5472AB7E239EF270
+07:01:56 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:3ACE7E892AF9DFC2
+07:01:57 [Thread-6] INFO charlie.actor.Courier - received card = C4 values = 4/4 hid = LAPTOP-CKJGDIFT:YOU:5472AB7E239EF270
+07:01:58 [Thread-6] INFO charlie.actor.Courier - received card = D3 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:3ACE7E892AF9DFC2
+07:01:59 [Thread-6] INFO charlie.actor.Courier - received card = S6 values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:5472AB7E239EF270
+07:01:59 [Thread-6] INFO charlie.actor.Courier - received card = C10 values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:3ACE7E892AF9DFC2
+07:01:59 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:5472AB7E239EF270
+07:02:00 [Thread-6] INFO charlie.actor.Courier - received card = DK values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:5472AB7E239EF270
+07:02:00 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:3ACE7E892AF9DFC2
+07:02:00 [Thread-6] INFO charlie.actor.Courier - received card = null values = 13/13 hid = LAPTOP-CKJGDIFT:DEALER:3ACE7E892AF9DFC2
+07:02:01 [Thread-6] INFO charlie.actor.Courier - received card = S8 values = 21/21 hid = LAPTOP-CKJGDIFT:DEALER:3ACE7E892AF9DFC2
+07:02:01 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@60d7de8e
+07:02:01 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:5472AB7E239EF270 amt = 5.0
+07:02:01 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 24
+07:02:01 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:02:01 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:02:01 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:02:01 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:02:04 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 24
+07:02:04 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:27EBC08DB33B011B
+07:02:04 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:4AA62CC49885EEEA
+07:02:05 [Thread-6] INFO charlie.actor.Courier - received card = SA values = 1/11 hid = LAPTOP-CKJGDIFT:YOU:27EBC08DB33B011B
+07:02:05 [Thread-6] INFO charlie.actor.Courier - received card = S9 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:4AA62CC49885EEEA
+07:02:06 [Thread-6] INFO charlie.actor.Courier - received card = SJ values = 11/21 hid = LAPTOP-CKJGDIFT:YOU:27EBC08DB33B011B
+07:02:06 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Blackjack@bafc436
+07:02:06 [Thread-6] INFO charlie.view.ATable - BJ for hid = LAPTOP-CKJGDIFT:YOU:27EBC08DB33B011B amt = 7.5
+07:02:07 [Thread-6] INFO charlie.actor.Courier - received card = C2 values = 2/2 hid = LAPTOP-CKJGDIFT:DEALER:4AA62CC49885EEEA
+07:02:07 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:4AA62CC49885EEEA
+07:02:07 [Thread-6] INFO charlie.actor.Courier - received card = null values = 11/11 hid = LAPTOP-CKJGDIFT:DEALER:4AA62CC49885EEEA
+07:02:07 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 20
+07:02:07 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:02:07 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:02:07 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:02:07 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:02:09 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 20
+07:02:09 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:342AB9FA7B082417
+07:02:09 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:65E89F73865D2E40
+07:02:10 [Thread-6] INFO charlie.actor.Courier - received card = C6 values = 6/6 hid = LAPTOP-CKJGDIFT:YOU:342AB9FA7B082417
+07:02:11 [Thread-6] INFO charlie.actor.Courier - received card = SQ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:65E89F73865D2E40
+07:02:12 [Thread-6] INFO charlie.actor.Courier - received card = DA values = 7/17 hid = LAPTOP-CKJGDIFT:YOU:342AB9FA7B082417
+07:02:13 [Thread-6] INFO charlie.actor.Courier - received card = H3 values = 3/3 hid = LAPTOP-CKJGDIFT:DEALER:65E89F73865D2E40
+07:02:13 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:342AB9FA7B082417
+07:02:14 [Thread-6] INFO charlie.actor.Courier - received card = C3 values = 10/20 hid = LAPTOP-CKJGDIFT:YOU:342AB9FA7B082417
+07:02:14 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:65E89F73865D2E40
+07:02:14 [Thread-6] INFO charlie.actor.Courier - received card = null values = 13/13 hid = LAPTOP-CKJGDIFT:DEALER:65E89F73865D2E40
+07:02:14 [Thread-6] INFO charlie.actor.Courier - received card = S10 values = 23/23 hid = LAPTOP-CKJGDIFT:DEALER:65E89F73865D2E40
+07:02:14 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@6f852b31
+07:02:14 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:342AB9FA7B082417 amt = 10.0
+07:02:14 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 14
+07:02:14 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:02:14 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:02:14 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:02:14 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:02:17 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 14
+07:02:17 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:45E36083233E8C26
+07:02:17 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:21BE492CAF996966
+07:02:17 [Thread-6] INFO charlie.actor.Courier - received shuffle
+07:02:18 [Thread-6] INFO charlie.actor.Courier - received card = H10 values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:45E36083233E8C26
+07:02:19 [Thread-6] INFO charlie.actor.Courier - received card = CA values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:21BE492CAF996966
+07:02:19 [Thread-6] INFO charlie.actor.Courier - received card = S5 values = 15/15 hid = LAPTOP-CKJGDIFT:YOU:45E36083233E8C26
+07:02:20 [Thread-6] INFO charlie.actor.Courier - received card = D7 values = 7/7 hid = LAPTOP-CKJGDIFT:DEALER:21BE492CAF996966
+07:02:20 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:45E36083233E8C26
+07:02:21 [Thread-6] INFO charlie.actor.Courier - received card = D5 values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:45E36083233E8C26
+07:02:23 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:21BE492CAF996966
+07:02:23 [Thread-6] INFO charlie.actor.Courier - received card = null values = 8/18 hid = LAPTOP-CKJGDIFT:DEALER:21BE492CAF996966
+07:02:23 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@5072dd9f
+07:02:23 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:45E36083233E8C26 amt = 5.0
+07:02:23 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 52
+07:02:23 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:02:23 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:02:23 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:02:23 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:02:28 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+07:02:28 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:3902BA486C46BA84
+07:02:28 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:34EEB3B664160031
+07:02:29 [Thread-6] INFO charlie.actor.Courier - received card = S10 values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:3902BA486C46BA84
+07:02:30 [Thread-6] INFO charlie.actor.Courier - received card = SQ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:34EEB3B664160031
+07:02:31 [Thread-6] INFO charlie.actor.Courier - received card = D6 values = 16/16 hid = LAPTOP-CKJGDIFT:YOU:3902BA486C46BA84
+07:02:32 [Thread-6] INFO charlie.actor.Courier - received card = S6 values = 6/6 hid = LAPTOP-CKJGDIFT:DEALER:34EEB3B664160031
+07:02:32 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:3902BA486C46BA84
+07:02:32 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:34EEB3B664160031
+07:02:32 [Thread-6] INFO charlie.actor.Courier - received card = null values = 16/16 hid = LAPTOP-CKJGDIFT:DEALER:34EEB3B664160031
+07:02:32 [Thread-6] INFO charlie.actor.Courier - received card = CK values = 26/26 hid = LAPTOP-CKJGDIFT:DEALER:34EEB3B664160031
+07:02:32 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@46fd171f
+07:02:32 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:3902BA486C46BA84 amt = 5.0
+07:02:32 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 47
+07:02:32 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:02:32 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:02:32 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:02:32 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:02:35 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 47
+07:02:35 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:160658BF7E3B8F89
+07:02:35 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:336430C3DBD0B2E8
+07:02:36 [Thread-6] INFO charlie.actor.Courier - received card = S9 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:160658BF7E3B8F89
+07:02:37 [Thread-6] INFO charlie.actor.Courier - received card = S4 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:336430C3DBD0B2E8
+07:02:37 [Thread-6] INFO charlie.actor.Courier - received card = SK values = 19/19 hid = LAPTOP-CKJGDIFT:YOU:160658BF7E3B8F89
+07:02:38 [Thread-6] INFO charlie.actor.Courier - received card = HJ values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:336430C3DBD0B2E8
+07:02:38 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:160658BF7E3B8F89
+07:02:40 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:336430C3DBD0B2E8
+07:02:40 [Thread-6] INFO charlie.actor.Courier - received card = null values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:336430C3DBD0B2E8
+07:02:41 [Thread-6] INFO charlie.actor.Courier - received card = SA values = 15/15 hid = LAPTOP-CKJGDIFT:DEALER:336430C3DBD0B2E8
+07:02:42 [Thread-6] INFO charlie.actor.Courier - received card = C7 values = 22/22 hid = LAPTOP-CKJGDIFT:DEALER:336430C3DBD0B2E8
+07:02:42 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@45308773
+07:02:42 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:160658BF7E3B8F89 amt = 5.0
+07:02:42 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 41
+07:02:42 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:02:42 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:02:42 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:02:42 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:02:44 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 41
+07:02:44 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:619C16F002EFEE3F
+07:02:44 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:8EE5E41DB1FD46C
+07:02:45 [Thread-6] INFO charlie.actor.Courier - received card = C5 values = 5/5 hid = LAPTOP-CKJGDIFT:YOU:619C16F002EFEE3F
+07:02:46 [Thread-6] INFO charlie.actor.Courier - received card = S5 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:8EE5E41DB1FD46C
+07:02:47 [Thread-6] INFO charlie.actor.Courier - received card = H9 values = 14/14 hid = LAPTOP-CKJGDIFT:YOU:619C16F002EFEE3F
+07:02:47 [Thread-6] INFO charlie.actor.Courier - received card = C10 values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:8EE5E41DB1FD46C
+07:02:47 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:619C16F002EFEE3F
+07:02:48 [Thread-6] INFO charlie.actor.Courier - received card = DA values = 15/15 hid = LAPTOP-CKJGDIFT:YOU:619C16F002EFEE3F
+07:02:50 [Thread-6] INFO charlie.actor.Courier - received card = H2 values = 17/17 hid = LAPTOP-CKJGDIFT:YOU:619C16F002EFEE3F
+07:02:51 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:8EE5E41DB1FD46C
+07:02:51 [Thread-6] INFO charlie.actor.Courier - received card = null values = 15/15 hid = LAPTOP-CKJGDIFT:DEALER:8EE5E41DB1FD46C
+07:02:52 [Thread-6] INFO charlie.actor.Courier - received card = H6 values = 21/21 hid = LAPTOP-CKJGDIFT:DEALER:8EE5E41DB1FD46C
+07:02:52 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@2767470b
+07:02:52 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:619C16F002EFEE3F amt = 5.0
+07:02:52 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 34
+07:02:52 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:02:52 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:02:52 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:02:52 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:02:54 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 34
+07:02:54 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:395266EFC7F7D63E
+07:02:54 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:43DCE5628748F43F
+07:02:55 [Thread-6] INFO charlie.actor.Courier - received card = C9 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:395266EFC7F7D63E
+07:02:56 [Thread-6] INFO charlie.actor.Courier - received card = S2 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:43DCE5628748F43F
+07:02:57 [Thread-6] INFO charlie.actor.Courier - received card = DQ values = 19/19 hid = LAPTOP-CKJGDIFT:YOU:395266EFC7F7D63E
+07:02:58 [Thread-6] INFO charlie.actor.Courier - received card = S7 values = 7/7 hid = LAPTOP-CKJGDIFT:DEALER:43DCE5628748F43F
+07:02:58 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:395266EFC7F7D63E
+07:02:59 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:43DCE5628748F43F
+07:02:59 [Thread-6] INFO charlie.actor.Courier - received card = null values = 9/9 hid = LAPTOP-CKJGDIFT:DEALER:43DCE5628748F43F
+07:03:00 [Thread-6] INFO charlie.actor.Courier - received card = H3 values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:43DCE5628748F43F
+07:03:01 [Thread-6] INFO charlie.actor.Courier - received card = CQ values = 22/22 hid = LAPTOP-CKJGDIFT:DEALER:43DCE5628748F43F
+07:03:01 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@3696ab51
+07:03:01 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:395266EFC7F7D63E amt = 5.0
+07:03:01 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 28
+07:03:01 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:03:01 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:03:01 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:03:01 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:03:03 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 28
+07:03:03 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:60BB9A976AE484B2
+07:03:03 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:4FE4137246183B36
+07:03:04 [Thread-6] INFO charlie.actor.Courier - received card = CJ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:60BB9A976AE484B2
+07:03:05 [Thread-6] INFO charlie.actor.Courier - received card = CA values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:4FE4137246183B36
+07:03:06 [Thread-6] INFO charlie.actor.Courier - received card = D4 values = 14/14 hid = LAPTOP-CKJGDIFT:YOU:60BB9A976AE484B2
+07:03:06 [Thread-6] INFO charlie.actor.Courier - received card = HA values = 1/11 hid = LAPTOP-CKJGDIFT:DEALER:4FE4137246183B36
+07:03:06 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:60BB9A976AE484B2
+07:03:07 [Thread-6] INFO charlie.actor.Courier - received card = C6 values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:60BB9A976AE484B2
+07:03:08 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:4FE4137246183B36
+07:03:08 [Thread-6] INFO charlie.actor.Courier - received card = null values = 2/12 hid = LAPTOP-CKJGDIFT:DEALER:4FE4137246183B36
+07:03:09 [Thread-6] INFO charlie.actor.Courier - received card = D9 values = 11/21 hid = LAPTOP-CKJGDIFT:DEALER:4FE4137246183B36
+07:03:09 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@44f777e8
+07:03:09 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:60BB9A976AE484B2 amt = 5.0
+07:03:09 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 22
+07:03:09 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:03:09 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:03:09 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:03:09 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:03:11 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 22
+07:03:11 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:473215D8AD3CB8F9
+07:03:11 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:2F7833FA7E122218
+07:03:12 [Thread-6] INFO charlie.actor.Courier - received card = C2 values = 2/2 hid = LAPTOP-CKJGDIFT:YOU:473215D8AD3CB8F9
+07:03:13 [Thread-6] INFO charlie.actor.Courier - received card = D8 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:2F7833FA7E122218
+07:03:14 [Thread-6] INFO charlie.actor.Courier - received card = D5 values = 7/7 hid = LAPTOP-CKJGDIFT:YOU:473215D8AD3CB8F9
+07:03:15 [Thread-6] INFO charlie.actor.Courier - received card = DJ values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:2F7833FA7E122218
+07:03:15 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:473215D8AD3CB8F9
+07:03:16 [Thread-6] INFO charlie.actor.Courier - received card = SJ values = 17/17 hid = LAPTOP-CKJGDIFT:YOU:473215D8AD3CB8F9
+07:03:17 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:2F7833FA7E122218
+07:03:17 [Thread-6] INFO charlie.actor.Courier - received card = null values = 18/18 hid = LAPTOP-CKJGDIFT:DEALER:2F7833FA7E122218
+07:03:17 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@61321970
+07:03:17 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:473215D8AD3CB8F9 amt = 5.0
+07:03:17 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 17
+07:03:17 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:03:17 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:03:17 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:03:17 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:03:20 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 17
+07:03:20 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:53E13BC2820E699
+07:03:20 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:2BB1A1FC7D790F30
+07:03:21 [Thread-6] INFO charlie.actor.Courier - received card = H8 values = 8/8 hid = LAPTOP-CKJGDIFT:YOU:53E13BC2820E699
+07:03:21 [Thread-6] INFO charlie.actor.Courier - received shuffle
+07:03:21 [Thread-6] INFO charlie.actor.Courier - received card = D10 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:2BB1A1FC7D790F30
+07:03:22 [Thread-6] INFO charlie.actor.Courier - received card = HK values = 18/18 hid = LAPTOP-CKJGDIFT:YOU:53E13BC2820E699
+07:03:23 [Thread-6] INFO charlie.actor.Courier - received card = C4 values = 4/4 hid = LAPTOP-CKJGDIFT:DEALER:2BB1A1FC7D790F30
+07:03:23 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:53E13BC2820E699
+07:03:24 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:2BB1A1FC7D790F30
+07:03:24 [Thread-6] INFO charlie.actor.Courier - received card = null values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:2BB1A1FC7D790F30
+07:03:24 [Thread-6] INFO charlie.actor.Courier - received card = DK values = 24/24 hid = LAPTOP-CKJGDIFT:DEALER:2BB1A1FC7D790F30
+07:03:24 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@70f34be2
+07:03:24 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:53E13BC2820E699 amt = 5.0
+07:03:24 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 52
+07:03:24 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:03:24 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:03:24 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:03:24 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:03:29 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+07:03:29 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:2AA93A878C208512
+07:03:29 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:52BDEBB2492D20EF
+07:03:30 [Thread-6] INFO charlie.actor.Courier - received card = DK values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:2AA93A878C208512
+07:03:31 [Thread-6] INFO charlie.actor.Courier - received card = H4 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:52BDEBB2492D20EF
+07:03:32 [Thread-6] INFO charlie.actor.Courier - received card = C7 values = 17/17 hid = LAPTOP-CKJGDIFT:YOU:2AA93A878C208512
+07:03:32 [Thread-6] INFO charlie.actor.Courier - received card = HJ values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:52BDEBB2492D20EF
+07:03:32 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:2AA93A878C208512
+07:03:33 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:52BDEBB2492D20EF
+07:03:33 [Thread-6] INFO charlie.actor.Courier - received card = null values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:52BDEBB2492D20EF
+07:03:34 [Thread-6] INFO charlie.actor.Courier - received card = H2 values = 16/16 hid = LAPTOP-CKJGDIFT:DEALER:52BDEBB2492D20EF
+07:03:35 [Thread-6] INFO charlie.actor.Courier - received card = HK values = 26/26 hid = LAPTOP-CKJGDIFT:DEALER:52BDEBB2492D20EF
+07:03:35 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@da87967
+07:03:35 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:2AA93A878C208512 amt = 5.0
+07:03:35 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 46
+07:03:35 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:03:35 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:03:35 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:03:35 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:03:37 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 46
+07:03:37 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:4603B63085D84FD0
+07:03:37 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:51CA27999F0E026D
+07:03:38 [Thread-6] INFO charlie.actor.Courier - received card = C4 values = 4/4 hid = LAPTOP-CKJGDIFT:YOU:4603B63085D84FD0
+07:03:39 [Thread-6] INFO charlie.actor.Courier - received card = DQ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:51CA27999F0E026D
+07:03:40 [Thread-6] INFO charlie.actor.Courier - received card = H7 values = 11/11 hid = LAPTOP-CKJGDIFT:YOU:4603B63085D84FD0
+07:03:41 [Thread-6] INFO charlie.actor.Courier - received card = S5 values = 5/5 hid = LAPTOP-CKJGDIFT:DEALER:51CA27999F0E026D
+07:03:41 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:4603B63085D84FD0
+07:03:42 [Thread-6] INFO charlie.actor.Courier - received card = CK values = 21/21 hid = LAPTOP-CKJGDIFT:YOU:4603B63085D84FD0
+07:03:42 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:51CA27999F0E026D
+07:03:42 [Thread-6] INFO charlie.actor.Courier - received card = null values = 15/15 hid = LAPTOP-CKJGDIFT:DEALER:51CA27999F0E026D
+07:03:42 [Thread-6] INFO charlie.actor.Courier - received card = CJ values = 25/25 hid = LAPTOP-CKJGDIFT:DEALER:51CA27999F0E026D
+07:03:42 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@45ab8725
+07:03:42 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:4603B63085D84FD0 amt = 10.0
+07:03:42 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 40
+07:03:42 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:03:42 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:03:42 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:03:42 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:03:45 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 40
+07:03:45 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:161DCE53803D206C
+07:03:45 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:399CAC128EE3C62A
+07:03:46 [Thread-6] INFO charlie.actor.Courier - received card = S2 values = 2/2 hid = LAPTOP-CKJGDIFT:YOU:161DCE53803D206C
+07:03:47 [Thread-6] INFO charlie.actor.Courier - received card = D3 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:399CAC128EE3C62A
+07:03:47 [Thread-6] INFO charlie.actor.Courier - received card = H5 values = 7/7 hid = LAPTOP-CKJGDIFT:YOU:161DCE53803D206C
+07:03:48 [Thread-6] INFO charlie.actor.Courier - received card = D8 values = 8/8 hid = LAPTOP-CKJGDIFT:DEALER:399CAC128EE3C62A
+07:03:48 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:161DCE53803D206C
+07:03:50 [Thread-6] INFO charlie.actor.Courier - received card = S8 values = 15/15 hid = LAPTOP-CKJGDIFT:YOU:161DCE53803D206C
+07:03:52 [Thread-6] INFO charlie.actor.Courier - received card = C8 values = 23/23 hid = LAPTOP-CKJGDIFT:YOU:161DCE53803D206C
+07:03:52 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@35eea803
+07:03:52 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:161DCE53803D206C amt = 5.0
+07:03:53 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:399CAC128EE3C62A
+07:03:53 [Thread-6] INFO charlie.actor.Courier - received card = null values = 11/11 hid = LAPTOP-CKJGDIFT:DEALER:399CAC128EE3C62A
+07:03:53 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 34
+07:03:53 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:03:53 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:03:53 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:03:53 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:03:55 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 34
+07:03:55 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:AA1B40991DE181A
+07:03:55 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:3B5776A14C5A911F
+07:03:56 [Thread-6] INFO charlie.actor.Courier - received card = HQ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:AA1B40991DE181A
+07:03:57 [Thread-6] INFO charlie.actor.Courier - received card = C9 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:3B5776A14C5A911F
+07:03:58 [Thread-6] INFO charlie.actor.Courier - received card = H3 values = 13/13 hid = LAPTOP-CKJGDIFT:YOU:AA1B40991DE181A
+07:03:58 [Thread-6] INFO charlie.actor.Courier - received card = S3 values = 3/3 hid = LAPTOP-CKJGDIFT:DEALER:3B5776A14C5A911F
+07:03:58 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:AA1B40991DE181A
+07:03:59 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:3B5776A14C5A911F
+07:03:59 [Thread-6] INFO charlie.actor.Courier - received card = null values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:3B5776A14C5A911F
+07:04:00 [Thread-6] INFO charlie.actor.Courier - received card = C2 values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:3B5776A14C5A911F
+07:04:01 [Thread-6] INFO charlie.actor.Courier - received card = C10 values = 24/24 hid = LAPTOP-CKJGDIFT:DEALER:3B5776A14C5A911F
+07:04:01 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@775c7c24
+07:04:01 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:AA1B40991DE181A amt = 5.0
+07:04:01 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 28
+07:04:01 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:04:01 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:04:01 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:04:01 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:04:04 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 28
+07:04:04 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:4DB892CCFB80ACCF
+07:04:04 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:4DFE4760E26DBCFC
+07:04:04 [Thread-6] INFO charlie.actor.Courier - received card = H10 values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:4DB892CCFB80ACCF
+07:04:05 [Thread-6] INFO charlie.actor.Courier - received card = C3 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:4DFE4760E26DBCFC
+07:04:06 [Thread-6] INFO charlie.actor.Courier - received card = SJ values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:4DB892CCFB80ACCF
+07:04:07 [Thread-6] INFO charlie.actor.Courier - received card = H9 values = 9/9 hid = LAPTOP-CKJGDIFT:DEALER:4DFE4760E26DBCFC
+07:04:07 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:4DB892CCFB80ACCF
+07:04:07 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:4DFE4760E26DBCFC
+07:04:07 [Thread-6] INFO charlie.actor.Courier - received card = null values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:4DFE4760E26DBCFC
+07:04:07 [Thread-6] INFO charlie.actor.Courier - received card = D5 values = 17/17 hid = LAPTOP-CKJGDIFT:DEALER:4DFE4760E26DBCFC
+07:04:07 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@c402a28
+07:04:07 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:4DB892CCFB80ACCF amt = 5.0
+07:04:07 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 23
+07:04:07 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:04:07 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:04:07 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:04:07 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:04:10 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 23
+07:04:10 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:713015A31699A4F
+07:04:10 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:46133D3DCED04DBE
+07:04:11 [Thread-6] INFO charlie.actor.Courier - received card = HA values = 1/11 hid = LAPTOP-CKJGDIFT:YOU:713015A31699A4F
+07:04:12 [Thread-6] INFO charlie.actor.Courier - received card = C5 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:46133D3DCED04DBE
+07:04:12 [Thread-6] INFO charlie.actor.Courier - received card = S10 values = 11/21 hid = LAPTOP-CKJGDIFT:YOU:713015A31699A4F
+07:04:12 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Blackjack@3be434cc
+07:04:12 [Thread-6] INFO charlie.view.ATable - BJ for hid = LAPTOP-CKJGDIFT:YOU:713015A31699A4F amt = 7.5
+07:04:13 [Thread-6] INFO charlie.actor.Courier - received card = DJ values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:46133D3DCED04DBE
+07:04:13 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:46133D3DCED04DBE
+07:04:13 [Thread-6] INFO charlie.actor.Courier - received card = null values = 15/15 hid = LAPTOP-CKJGDIFT:DEALER:46133D3DCED04DBE
+07:04:13 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 19
+07:04:13 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:04:13 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:04:13 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:04:13 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:04:16 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 19
+07:04:16 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:66EA8FE78CAE1B24
+07:04:16 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:781F0BCAAA588234
+07:04:17 [Thread-6] INFO charlie.actor.Courier - received card = SA values = 1/11 hid = LAPTOP-CKJGDIFT:YOU:66EA8FE78CAE1B24
+07:04:17 [Thread-6] INFO charlie.actor.Courier - received shuffle
+07:04:17 [Thread-6] INFO charlie.actor.Courier - received card = D4 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:781F0BCAAA588234
+07:04:18 [Thread-6] INFO charlie.actor.Courier - received card = D7 values = 8/18 hid = LAPTOP-CKJGDIFT:YOU:66EA8FE78CAE1B24
+07:04:19 [Thread-6] INFO charlie.actor.Courier - received card = DA values = 1/11 hid = LAPTOP-CKJGDIFT:DEALER:781F0BCAAA588234
+07:04:19 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:66EA8FE78CAE1B24
+07:04:20 [Thread-6] INFO charlie.actor.Courier - received card = SK values = 18/28 hid = LAPTOP-CKJGDIFT:YOU:66EA8FE78CAE1B24
+07:04:22 [Thread-6] INFO charlie.actor.Courier - received card = C6 values = 24/34 hid = LAPTOP-CKJGDIFT:YOU:66EA8FE78CAE1B24
+07:04:22 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@28a320c9
+07:04:22 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:66EA8FE78CAE1B24 amt = 5.0
+07:04:22 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:781F0BCAAA588234
+07:04:22 [Thread-6] INFO charlie.actor.Courier - received card = null values = 5/15 hid = LAPTOP-CKJGDIFT:DEALER:781F0BCAAA588234
+07:04:22 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 52
+07:04:22 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:04:22 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:04:22 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:04:22 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:04:27 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+07:04:27 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:51BCBFB07D7E2FE1
+07:04:27 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:6E7F03B8A573C21A
+07:04:28 [Thread-6] INFO charlie.actor.Courier - received card = HQ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:51BCBFB07D7E2FE1
+07:04:29 [Thread-6] INFO charlie.actor.Courier - received card = DQ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:6E7F03B8A573C21A
+07:04:30 [Thread-6] INFO charlie.actor.Courier - received card = H8 values = 18/18 hid = LAPTOP-CKJGDIFT:YOU:51BCBFB07D7E2FE1
+07:04:31 [Thread-6] INFO charlie.actor.Courier - received card = H2 values = 2/2 hid = LAPTOP-CKJGDIFT:DEALER:6E7F03B8A573C21A
+07:04:31 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:51BCBFB07D7E2FE1
+07:04:31 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:6E7F03B8A573C21A
+07:04:31 [Thread-6] INFO charlie.actor.Courier - received card = null values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:6E7F03B8A573C21A
+07:04:31 [Thread-6] INFO charlie.actor.Courier - received card = D9 values = 21/21 hid = LAPTOP-CKJGDIFT:DEALER:6E7F03B8A573C21A
+07:04:31 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@6cb59e2
+07:04:31 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:51BCBFB07D7E2FE1 amt = 5.0
+07:04:31 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 47
+07:04:31 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:04:31 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:04:31 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:04:31 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:04:34 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 47
+07:04:34 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:68E9DF8E69E00FF5
+07:04:34 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:2528D62AC9D47CA5
+07:04:35 [Thread-6] INFO charlie.actor.Courier - received card = C5 values = 5/5 hid = LAPTOP-CKJGDIFT:YOU:68E9DF8E69E00FF5
+07:04:36 [Thread-6] INFO charlie.actor.Courier - received card = CA values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:2528D62AC9D47CA5
+07:04:37 [Thread-6] INFO charlie.actor.Courier - received card = DJ values = 15/15 hid = LAPTOP-CKJGDIFT:YOU:68E9DF8E69E00FF5
+07:04:37 [Thread-6] INFO charlie.actor.Courier - received card = S9 values = 9/9 hid = LAPTOP-CKJGDIFT:DEALER:2528D62AC9D47CA5
+07:04:37 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:68E9DF8E69E00FF5
+07:04:39 [Thread-6] INFO charlie.actor.Courier - received card = D2 values = 17/17 hid = LAPTOP-CKJGDIFT:YOU:68E9DF8E69E00FF5
+07:04:41 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:2528D62AC9D47CA5
+07:04:41 [Thread-6] INFO charlie.actor.Courier - received card = null values = 10/20 hid = LAPTOP-CKJGDIFT:DEALER:2528D62AC9D47CA5
+07:04:41 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@30202bf6
+07:04:41 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:68E9DF8E69E00FF5 amt = 5.0
+07:04:41 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 42
+07:04:41 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:04:41 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:04:41 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:04:41 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:04:43 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 42
+07:04:43 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:7D37E4A464A3CACC
+07:04:43 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:2AE9F92C8309CE61
+07:04:44 [Thread-6] INFO charlie.actor.Courier - received card = SA values = 1/11 hid = LAPTOP-CKJGDIFT:YOU:7D37E4A464A3CACC
+07:04:45 [Thread-6] INFO charlie.actor.Courier - received card = CK values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:2AE9F92C8309CE61
+07:04:46 [Thread-6] INFO charlie.actor.Courier - received card = HK values = 11/21 hid = LAPTOP-CKJGDIFT:YOU:7D37E4A464A3CACC
+07:04:46 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Blackjack@7541135
+07:04:46 [Thread-6] INFO charlie.view.ATable - BJ for hid = LAPTOP-CKJGDIFT:YOU:7D37E4A464A3CACC amt = 7.5
+07:04:47 [Thread-6] INFO charlie.actor.Courier - received card = H4 values = 4/4 hid = LAPTOP-CKJGDIFT:DEALER:2AE9F92C8309CE61
+07:04:47 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:2AE9F92C8309CE61
+07:04:47 [Thread-6] INFO charlie.actor.Courier - received card = null values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:2AE9F92C8309CE61
+07:04:47 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 38
+07:04:47 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:04:47 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:04:47 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:04:47 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:04:49 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 38
+07:04:49 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:6D2C52E1F5FCAC87
+07:04:49 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:69136186F9CFB873
+07:04:50 [Thread-6] INFO charlie.actor.Courier - received card = C8 values = 8/8 hid = LAPTOP-CKJGDIFT:YOU:6D2C52E1F5FCAC87
+07:04:51 [Thread-6] INFO charlie.actor.Courier - received card = C3 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:69136186F9CFB873
+07:04:52 [Thread-6] INFO charlie.actor.Courier - received card = S5 values = 13/13 hid = LAPTOP-CKJGDIFT:YOU:6D2C52E1F5FCAC87
+07:04:52 [Thread-6] INFO charlie.actor.Courier - received card = H10 values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:69136186F9CFB873
+07:04:52 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:6D2C52E1F5FCAC87
+07:04:53 [Thread-6] INFO charlie.actor.Courier - received card = C10 values = 23/23 hid = LAPTOP-CKJGDIFT:YOU:6D2C52E1F5FCAC87
+07:04:53 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@37c7a2ca
+07:04:53 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:6D2C52E1F5FCAC87 amt = 5.0
+07:04:53 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:69136186F9CFB873
+07:04:53 [Thread-6] INFO charlie.actor.Courier - received card = null values = 13/13 hid = LAPTOP-CKJGDIFT:DEALER:69136186F9CFB873
+07:04:53 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 33
+07:04:53 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:04:53 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:04:53 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:04:53 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:04:56 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 33
+07:04:56 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:863F3B283154B5A
+07:04:56 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:45D0DFD7E6FF1AF5
+07:04:57 [Thread-6] INFO charlie.actor.Courier - received card = H3 values = 3/3 hid = LAPTOP-CKJGDIFT:YOU:863F3B283154B5A
+07:04:58 [Thread-6] INFO charlie.actor.Courier - received card = C6 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:45D0DFD7E6FF1AF5
+07:04:58 [Thread-6] INFO charlie.actor.Courier - received card = HJ values = 13/13 hid = LAPTOP-CKJGDIFT:YOU:863F3B283154B5A
+07:04:59 [Thread-6] INFO charlie.actor.Courier - received card = C7 values = 7/7 hid = LAPTOP-CKJGDIFT:DEALER:45D0DFD7E6FF1AF5
+07:04:59 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:863F3B283154B5A
+07:05:01 [Thread-6] INFO charlie.actor.Courier - received card = S10 values = 23/23 hid = LAPTOP-CKJGDIFT:YOU:863F3B283154B5A
+07:05:01 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@45c2826e
+07:05:01 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:863F3B283154B5A amt = 5.0
+07:05:01 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:45D0DFD7E6FF1AF5
+07:05:01 [Thread-6] INFO charlie.actor.Courier - received card = null values = 13/13 hid = LAPTOP-CKJGDIFT:DEALER:45D0DFD7E6FF1AF5
+07:05:01 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 28
+07:05:01 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:05:01 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:05:01 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:05:01 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:05:04 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 28
+07:05:04 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:6B2AC53C728ADB91
+07:05:04 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:4ADCC2979F07C66B
+07:05:05 [Thread-6] INFO charlie.actor.Courier - received card = SJ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:6B2AC53C728ADB91
+07:05:05 [Thread-6] INFO charlie.actor.Courier - received card = DK values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:4ADCC2979F07C66B
+07:05:06 [Thread-6] INFO charlie.actor.Courier - received card = D4 values = 14/14 hid = LAPTOP-CKJGDIFT:YOU:6B2AC53C728ADB91
+07:05:07 [Thread-6] INFO charlie.actor.Courier - received card = H5 values = 5/5 hid = LAPTOP-CKJGDIFT:DEALER:4ADCC2979F07C66B
+07:05:07 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:6B2AC53C728ADB91
+07:05:08 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:4ADCC2979F07C66B
+07:05:08 [Thread-6] INFO charlie.actor.Courier - received card = null values = 15/15 hid = LAPTOP-CKJGDIFT:DEALER:4ADCC2979F07C66B
+07:05:09 [Thread-6] INFO charlie.actor.Courier - received card = D6 values = 21/21 hid = LAPTOP-CKJGDIFT:DEALER:4ADCC2979F07C66B
+07:05:09 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@4fe6ba74
+07:05:09 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:6B2AC53C728ADB91 amt = 5.0
+07:05:09 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 23
+07:05:09 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:05:09 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:05:09 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:05:09 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:05:12 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 23
+07:05:12 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:69E3BC1BB165204D
+07:05:12 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:603397D9256F24
+07:05:13 [Thread-6] INFO charlie.actor.Courier - received card = DA values = 1/11 hid = LAPTOP-CKJGDIFT:YOU:69E3BC1BB165204D
+07:05:13 [Thread-6] INFO charlie.actor.Courier - received card = D10 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:603397D9256F24
+07:05:14 [Thread-6] INFO charlie.actor.Courier - received card = S2 values = 3/13 hid = LAPTOP-CKJGDIFT:YOU:69E3BC1BB165204D
+07:05:15 [Thread-6] INFO charlie.actor.Courier - received card = S3 values = 3/3 hid = LAPTOP-CKJGDIFT:DEALER:603397D9256F24
+07:05:15 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:69E3BC1BB165204D
+07:05:17 [Thread-6] INFO charlie.actor.Courier - received card = SK values = 13/23 hid = LAPTOP-CKJGDIFT:YOU:69E3BC1BB165204D
+07:05:17 [Thread-6] INFO charlie.actor.Courier - received card = H6 values = 19/29 hid = LAPTOP-CKJGDIFT:YOU:69E3BC1BB165204D
+07:05:19 [Thread-6] INFO charlie.actor.Courier - received card = S7 values = 26/36 hid = LAPTOP-CKJGDIFT:YOU:69E3BC1BB165204D
+07:05:19 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@17564952
+07:05:19 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:69E3BC1BB165204D amt = 5.0
+07:05:19 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:603397D9256F24
+07:05:19 [Thread-6] INFO charlie.actor.Courier - received card = null values = 13/13 hid = LAPTOP-CKJGDIFT:DEALER:603397D9256F24
+07:05:19 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 16
+07:05:19 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:05:19 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:05:19 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:05:19 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:05:22 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 16
+07:05:22 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:CF2243F8319BD90
+07:05:22 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:44A396514B963AF6
+07:05:22 [Thread-6] INFO charlie.actor.Courier - received shuffle
+07:05:23 [Thread-6] INFO charlie.actor.Courier - received card = C2 values = 2/2 hid = LAPTOP-CKJGDIFT:YOU:CF2243F8319BD90
+07:05:24 [Thread-6] INFO charlie.actor.Courier - received card = D7 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:44A396514B963AF6
+07:05:24 [Thread-6] INFO charlie.actor.Courier - received card = HA values = 3/13 hid = LAPTOP-CKJGDIFT:YOU:CF2243F8319BD90
+07:05:25 [Thread-6] INFO charlie.actor.Courier - received card = S6 values = 6/6 hid = LAPTOP-CKJGDIFT:DEALER:44A396514B963AF6
+07:05:25 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:CF2243F8319BD90
+07:05:27 [Thread-6] INFO charlie.actor.Courier - received card = D3 values = 6/16 hid = LAPTOP-CKJGDIFT:YOU:CF2243F8319BD90
+07:05:27 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:44A396514B963AF6
+07:05:27 [Thread-6] INFO charlie.actor.Courier - received card = null values = 13/13 hid = LAPTOP-CKJGDIFT:DEALER:44A396514B963AF6
+07:05:28 [Thread-6] INFO charlie.actor.Courier - received card = D5 values = 18/18 hid = LAPTOP-CKJGDIFT:DEALER:44A396514B963AF6
+07:05:28 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@3261719a
+07:05:28 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:CF2243F8319BD90 amt = 10.0
+07:05:28 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 52
+07:05:28 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:05:28 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:05:28 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:05:28 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:05:33 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+07:05:33 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:1745B9600750D822
+07:05:33 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:102F2E77B910CAB7
+07:05:34 [Thread-6] INFO charlie.actor.Courier - received card = HA values = 1/11 hid = LAPTOP-CKJGDIFT:YOU:1745B9600750D822
+07:05:35 [Thread-6] INFO charlie.actor.Courier - received card = H9 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:102F2E77B910CAB7
+07:05:36 [Thread-6] INFO charlie.actor.Courier - received card = D6 values = 7/17 hid = LAPTOP-CKJGDIFT:YOU:1745B9600750D822
+07:05:37 [Thread-6] INFO charlie.actor.Courier - received card = DK values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:102F2E77B910CAB7
+07:05:37 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:1745B9600750D822
+07:05:38 [Thread-6] INFO charlie.actor.Courier - received card = D4 values = 11/21 hid = LAPTOP-CKJGDIFT:YOU:1745B9600750D822
+07:05:38 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:102F2E77B910CAB7
+07:05:38 [Thread-6] INFO charlie.actor.Courier - received card = null values = 19/19 hid = LAPTOP-CKJGDIFT:DEALER:102F2E77B910CAB7
+07:05:38 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Win@7ecd43b6
+07:05:38 [Thread-6] INFO charlie.view.ATable - WIN for hid = LAPTOP-CKJGDIFT:YOU:1745B9600750D822 amt = 20.0
+07:05:38 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 47
+07:05:38 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:05:38 [Thread-6] INFO charlie.view.ATable - winner count = 1
+07:05:38 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:05:38 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:05:41 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 47
+07:05:41 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:5E999998085DF38
+07:05:41 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:6CF33E72CB444BA0
+07:05:42 [Thread-6] INFO charlie.actor.Courier - received card = H4 values = 4/4 hid = LAPTOP-CKJGDIFT:YOU:5E999998085DF38
+07:05:42 [Thread-6] INFO charlie.actor.Courier - received card = DA values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:6CF33E72CB444BA0
+07:05:43 [Thread-6] INFO charlie.actor.Courier - received card = S7 values = 11/11 hid = LAPTOP-CKJGDIFT:YOU:5E999998085DF38
+07:05:44 [Thread-6] INFO charlie.actor.Courier - received card = C2 values = 2/2 hid = LAPTOP-CKJGDIFT:DEALER:6CF33E72CB444BA0
+07:05:44 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:5E999998085DF38
+07:05:46 [Thread-6] INFO charlie.actor.Courier - received card = C4 values = 15/15 hid = LAPTOP-CKJGDIFT:YOU:5E999998085DF38
+07:05:46 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:6CF33E72CB444BA0
+07:05:46 [Thread-6] INFO charlie.actor.Courier - received card = null values = 3/13 hid = LAPTOP-CKJGDIFT:DEALER:6CF33E72CB444BA0
+07:05:47 [Thread-6] INFO charlie.actor.Courier - received card = D10 values = 13/23 hid = LAPTOP-CKJGDIFT:DEALER:6CF33E72CB444BA0
+07:05:47 [Thread-6] INFO charlie.actor.Courier - received card = S3 values = 16/26 hid = LAPTOP-CKJGDIFT:DEALER:6CF33E72CB444BA0
+07:05:48 [Thread-6] INFO charlie.actor.Courier - received card = S4 values = 20/30 hid = LAPTOP-CKJGDIFT:DEALER:6CF33E72CB444BA0
+07:05:48 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@4dcfe68
+07:05:48 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:5E999998085DF38 amt = 40.0
+07:05:48 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 39
+07:05:48 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:05:48 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:05:48 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:05:48 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:05:51 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 39
+07:05:51 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:6EB073AAFCE06795
+07:05:51 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:3CC11CA621D7B7C2
+07:05:52 [Thread-6] INFO charlie.actor.Courier - received card = D9 values = 9/9 hid = LAPTOP-CKJGDIFT:YOU:6EB073AAFCE06795
+07:05:52 [Thread-6] INFO charlie.actor.Courier - received card = HQ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:3CC11CA621D7B7C2
+07:05:53 [Thread-6] INFO charlie.actor.Courier - received card = H5 values = 14/14 hid = LAPTOP-CKJGDIFT:YOU:6EB073AAFCE06795
+07:05:54 [Thread-6] INFO charlie.actor.Courier - received card = D8 values = 8/8 hid = LAPTOP-CKJGDIFT:DEALER:3CC11CA621D7B7C2
+07:05:54 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:6EB073AAFCE06795
+07:05:55 [Thread-6] INFO charlie.actor.Courier - received card = C8 values = 22/22 hid = LAPTOP-CKJGDIFT:YOU:6EB073AAFCE06795
+07:05:55 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@3bb5e13
+07:05:55 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:6EB073AAFCE06795 amt = 35.0
+07:05:55 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:3CC11CA621D7B7C2
+07:05:55 [Thread-6] INFO charlie.actor.Courier - received card = null values = 18/18 hid = LAPTOP-CKJGDIFT:DEALER:3CC11CA621D7B7C2
+07:05:55 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 34
+07:05:55 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:05:55 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:05:55 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:05:55 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:05:57 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 34
+07:05:57 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:127AF097EE0DC3DD
+07:05:57 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:484A9E56FEACF222
+07:05:58 [Thread-6] INFO charlie.actor.Courier - received card = S10 values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:127AF097EE0DC3DD
+07:05:59 [Thread-6] INFO charlie.actor.Courier - received card = S6 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:484A9E56FEACF222
+07:06:00 [Thread-6] INFO charlie.actor.Courier - received card = S2 values = 12/12 hid = LAPTOP-CKJGDIFT:YOU:127AF097EE0DC3DD
+07:06:01 [Thread-6] INFO charlie.actor.Courier - received card = H8 values = 8/8 hid = LAPTOP-CKJGDIFT:DEALER:484A9E56FEACF222
+07:06:01 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:127AF097EE0DC3DD
+07:06:01 [Thread-6] INFO charlie.actor.Courier - received card = D2 values = 14/14 hid = LAPTOP-CKJGDIFT:YOU:127AF097EE0DC3DD
+07:06:02 [Thread-6] INFO charlie.actor.Courier - received card = CK values = 24/24 hid = LAPTOP-CKJGDIFT:YOU:127AF097EE0DC3DD
+07:06:02 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Bust@343ba498
+07:06:02 [Thread-6] INFO charlie.view.ATable - BUST for hid = LAPTOP-CKJGDIFT:YOU:127AF097EE0DC3DD amt = 35.0
+07:06:02 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:484A9E56FEACF222
+07:06:02 [Thread-6] INFO charlie.actor.Courier - received card = null values = 14/14 hid = LAPTOP-CKJGDIFT:DEALER:484A9E56FEACF222
+07:06:02 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 28
+07:06:02 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:06:02 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:06:02 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:06:02 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:06:05 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 28
+07:06:05 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:6B941752AA61A397
+07:06:05 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:AA023ACFCEF7DB8
+07:06:06 [Thread-6] INFO charlie.actor.Courier - received card = SQ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:6B941752AA61A397
+07:06:07 [Thread-6] INFO charlie.actor.Courier - received card = H3 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:AA023ACFCEF7DB8
+07:06:07 [Thread-6] INFO charlie.actor.Courier - received card = SJ values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:6B941752AA61A397
+07:06:08 [Thread-6] INFO charlie.actor.Courier - received card = D5 values = 5/5 hid = LAPTOP-CKJGDIFT:DEALER:AA023ACFCEF7DB8
+07:06:08 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:6B941752AA61A397
+07:06:09 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:AA023ACFCEF7DB8
+07:06:09 [Thread-6] INFO charlie.actor.Courier - received card = null values = 8/8 hid = LAPTOP-CKJGDIFT:DEALER:AA023ACFCEF7DB8
+07:06:09 [Thread-6] INFO charlie.actor.Courier - received card = C3 values = 11/11 hid = LAPTOP-CKJGDIFT:DEALER:AA023ACFCEF7DB8
+07:06:10 [Thread-6] INFO charlie.actor.Courier - received card = H10 values = 21/21 hid = LAPTOP-CKJGDIFT:DEALER:AA023ACFCEF7DB8
+07:06:10 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@bd2ce0e
+07:06:10 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:6B941752AA61A397 amt = 40.0
+07:06:10 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 22
+07:06:10 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:06:10 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:06:10 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:06:10 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:06:12 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 22
+07:06:12 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:20E0C42B5A13C378
+07:06:12 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:40508DA97F53060A
+07:06:13 [Thread-6] INFO charlie.actor.Courier - received card = D7 values = 7/7 hid = LAPTOP-CKJGDIFT:YOU:20E0C42B5A13C378
+07:06:14 [Thread-6] INFO charlie.actor.Courier - received card = HK values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:40508DA97F53060A
+07:06:15 [Thread-6] INFO charlie.actor.Courier - received card = C9 values = 16/16 hid = LAPTOP-CKJGDIFT:YOU:20E0C42B5A13C378
+07:06:15 [Thread-6] INFO charlie.actor.Courier - received card = S9 values = 9/9 hid = LAPTOP-CKJGDIFT:DEALER:40508DA97F53060A
+07:06:15 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:20E0C42B5A13C378
+07:06:16 [Thread-6] INFO charlie.actor.Courier - received shuffle
+07:06:16 [Thread-6] INFO charlie.actor.Courier - received card = H2 values = 18/18 hid = LAPTOP-CKJGDIFT:YOU:20E0C42B5A13C378
+07:06:18 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:40508DA97F53060A
+07:06:18 [Thread-6] INFO charlie.actor.Courier - received card = null values = 19/19 hid = LAPTOP-CKJGDIFT:DEALER:40508DA97F53060A
+07:06:18 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@1a15c3d5
+07:06:18 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:20E0C42B5A13C378 amt = 40.0
+07:06:18 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 52
+07:06:18 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:06:18 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:06:18 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:06:18 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:06:24 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 52
+07:06:24 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:3DA4F8B5D4FA8144
+07:06:24 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:4E36A1A77F44E958
+07:06:25 [Thread-6] INFO charlie.actor.Courier - received card = CQ values = 10/10 hid = LAPTOP-CKJGDIFT:YOU:3DA4F8B5D4FA8144
+07:06:26 [Thread-6] INFO charlie.actor.Courier - received card = DJ values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:4E36A1A77F44E958
+07:06:26 [Thread-6] INFO charlie.actor.Courier - received card = H5 values = 15/15 hid = LAPTOP-CKJGDIFT:YOU:3DA4F8B5D4FA8144
+07:06:27 [Thread-6] INFO charlie.actor.Courier - received card = D2 values = 2/2 hid = LAPTOP-CKJGDIFT:DEALER:4E36A1A77F44E958
+07:06:27 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:3DA4F8B5D4FA8144
+07:06:29 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:4E36A1A77F44E958
+07:06:29 [Thread-6] INFO charlie.actor.Courier - received card = null values = 12/12 hid = LAPTOP-CKJGDIFT:DEALER:4E36A1A77F44E958
+07:06:29 [Thread-6] INFO charlie.actor.Courier - received card = S8 values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:4E36A1A77F44E958
+07:06:29 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Loose@2871f945
+07:06:29 [Thread-6] INFO charlie.view.ATable - LOOSE for hid = LAPTOP-CKJGDIFT:YOU:3DA4F8B5D4FA8144 amt = 5.0
+07:06:29 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 47
+07:06:29 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:06:29 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:06:29 [Thread-6] INFO charlie.view.ATable - looser count = 1
+07:06:29 [Thread-6] INFO charlie.view.ATable - push count = 0
+07:06:32 [Thread-6] INFO charlie.actor.Courier - receive starting shoe size = 47
+07:06:32 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:YOU:4A923B9FB6325DD8
+07:06:32 [Thread-6] INFO charlie.actor.Courier - starting hand: LAPTOP-CKJGDIFT:DEALER:50EAC693A6B22CD4
+07:06:33 [Thread-6] INFO charlie.actor.Courier - received card = S2 values = 2/2 hid = LAPTOP-CKJGDIFT:YOU:4A923B9FB6325DD8
+07:06:34 [Thread-6] INFO charlie.actor.Courier - received card = H2 values = 0/0 hid = LAPTOP-CKJGDIFT:DEALER:50EAC693A6B22CD4
+07:06:34 [Thread-6] INFO charlie.actor.Courier - received card = C9 values = 11/11 hid = LAPTOP-CKJGDIFT:YOU:4A923B9FB6325DD8
+07:06:35 [Thread-6] INFO charlie.actor.Courier - received card = D8 values = 8/8 hid = LAPTOP-CKJGDIFT:DEALER:50EAC693A6B22CD4
+07:06:35 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:YOU:4A923B9FB6325DD8
+07:06:37 [Thread-6] INFO charlie.actor.Courier - received card = H9 values = 20/20 hid = LAPTOP-CKJGDIFT:YOU:4A923B9FB6325DD8
+07:06:37 [Thread-6] INFO charlie.actor.Courier - got trun = LAPTOP-CKJGDIFT:DEALER:50EAC693A6B22CD4
+07:06:37 [Thread-6] INFO charlie.actor.Courier - received card = null values = 10/10 hid = LAPTOP-CKJGDIFT:DEALER:50EAC693A6B22CD4
+07:06:38 [Thread-6] INFO charlie.actor.Courier - received card = HK values = 20/20 hid = LAPTOP-CKJGDIFT:DEALER:50EAC693A6B22CD4
+07:06:38 [Thread-6] INFO charlie.actor.Courier - received outcome = charlie.message.view.to.Push@69c599aa
+07:06:38 [Thread-6] INFO charlie.view.ATable - PUSH for hid = LAPTOP-CKJGDIFT:YOU:4A923B9FB6325DD8 amt = 10.0
+07:06:38 [Thread-6] INFO charlie.actor.Courier - received ending shoe size = 41
+07:06:38 [Thread-6] INFO charlie.view.ATable - num hands = 2
+07:06:38 [Thread-6] INFO charlie.view.ATable - winner count = 0
+07:06:38 [Thread-6] INFO charlie.view.ATable - looser count = 0
+07:06:38 [Thread-6] INFO charlie.view.ATable - push count = 1
+BUILD SUCCESSFUL (total time: 14 minutes 2 seconds)
